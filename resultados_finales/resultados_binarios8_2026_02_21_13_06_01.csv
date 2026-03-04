@@ -1,0 +1,1034 @@
+dataset,nrows,ncols,run,seed,i_5CV_logloss,p_5CV_logloss,i_TST_logloss,p_TST_logloss,i_geo_complexity,p_geo_complexity,i_nfs_complexity,p_nfs_complexity,i_H_total,i_H_active,i_C_inconsistentes,i_k_promedio_activas,p_H_total,p_H_active,p_C_inconsistentes,p_k_promedio_activas,i_best_model,p_best_model,i_d,p_d,i_l,p_l,i_f,p_f,i_tree_nfs,p_tree_nfs,i_tree_used_fs,p_tree_used_fs,i_selected_fs,p_selected_fs
+kc1.csv,2109,22,0,0,0.343824,0.344915,0.353209,0.351634,1.1333333333333333,2.1904761904761907,7,2.0,1,1,0,5.0,2,2,1,1.5,"MLPClassifier(activation='logistic', alpha=0.0025242911341504526,
+              hidden_layer_sizes=1, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,7,2,['v(g)' 'l' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op'],['lOCode' 'total_Opnd'],['v(g)' 'l' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op'],['lOCode' 'total_Opnd']
+churn.csv,5000,34,0,0,0.218568,0.158984,0.198934,0.127183,2.6545454545454548,9.333333333333332,18,11.0,2,2,4,13.5,7,7,11,8.285714285714286,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.3062665039262662,
+              hidden_layer_sizes=7, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,18,11,"['state' 'account_length' 'area_code_415' 'area_code_510'
+ 'international_plan_1' 'voice_mail_plan_1' 'total_day_calls'
+ 'total_day_charge' 'total_eve_minutes' 'total_eve_charge'
+ 'total_night_charge' 'total_intl_minutes' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_charge' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']","['state' 'account_length' 'area_code_415' 'area_code_510'
+ 'international_plan_1' 'voice_mail_plan_1' 'total_day_calls'
+ 'total_day_charge' 'total_eve_minutes' 'total_eve_charge'
+ 'total_night_charge' 'total_intl_minutes' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_charge' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']"
+kc1.csv,2109,22,1,1234,0.347575,0.34725,0.356916,0.346203,1.0952380952380953,2.1714285714285713,5,3.0,1,1,0,4.0,2,2,1,2.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,5,3,['v(g)' 'd' 'lOBlank' 'locCodeAndComment' 'uniq_Opnd'],['lOCode' 'uniq_Opnd' 'total_Opnd'],['v(g)' 'd' 'lOBlank' 'locCodeAndComment' 'uniq_Opnd'],['lOCode' 'uniq_Opnd' 'total_Opnd']
+Contaminant.csv,2400,31,0,0,0.152484,0.226111,0.187499,0.252084,26.5,2.813333333333333,23,20.0,15,15,23,17.266666666666666,2,2,5,15.0,"MLPClassifier(activation='logistic', alpha=0.24957332447873837,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,23,20,"['s12' 's13' 's15' 's21' 's23' 's24' 's31' 's32' 's35' 's36' 's41' 's42'
+ 's45' 's46' 's51' 's52' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's25' 's32' 's34' 's35' 's36'
+ 's42' 's45' 's51' 's54' 's56' 's61' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's24' 's31' 's32' 's35' 's36' 's41' 's42'
+ 's45' 's46' 's51' 's52' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's25' 's32' 's34' 's35' 's36'
+ 's42' 's45' 's51' 's54' 's56' 's61' 's63' 's65']"
+Contaminant.csv,2400,31,1,1234,0.290184,0.158953,0.328119,0.169344,1.2266666666666666,26.2,17,23.0,1,1,0,13.0,15,15,20,17.266666666666666,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.38101397161616407,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,17,23,"['s12' 's14' 's15' 's21' 's23' 's25' 's32' 's36' 's42' 's43' 's46' 's51'
+ 's52' 's56' 's61' 's62' 's63']","['s12' 's13' 's14' 's15' 's21' 's23' 's25' 's26' 's31' 's34' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's54' 's56' 's61' 's62' 's64' 's65']","['s12' 's14' 's15' 's21' 's23' 's25' 's32' 's36' 's42' 's43' 's46' 's51'
+ 's52' 's56' 's61' 's62' 's63']","['s12' 's13' 's14' 's15' 's21' 's23' 's25' 's26' 's31' 's34' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's54' 's56' 's61' 's62' 's64' 's65']"
+churn.csv,5000,34,1,1234,0.139821,0.160686,0.155233,0.1469,9.745454545454546,16.50909090909091,13,13.0,7,7,13,9.571428571428571,12,12,12,9.75,"MLPClassifier(activation='logistic', alpha=0.23582290040533782,
+              hidden_layer_sizes=7, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.0854586085425908,
+              hidden_layer_sizes=12, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,13,13,"['international_plan_0' 'international_plan_1' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_night_charge' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7']","['international_plan_0' 'voice_mail_plan_1' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_eve_charge'
+ 'total_night_charge' 'total_intl_minutes' 'total_intl_calls'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_9']","['international_plan_0' 'international_plan_1' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_night_charge' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7']","['international_plan_0' 'voice_mail_plan_1' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_eve_charge'
+ 'total_night_charge' 'total_intl_minutes' 'total_intl_calls'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_9']"
+kc1.csv,2109,22,2,2468,0.355658,0.355385,0.348465,0.348094,1.1333333333333333,1.1142857142857143,7,6.0,1,1,0,5.0,1,1,0,4.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,7,6,['loc' 'v(g)' 'n' 'd' 'i' 'lOCode' 'locCodeAndComment'],['loc' 'd' 'i' 'lOCode' 'locCodeAndComment' 'total_Op'],['loc' 'v(g)' 'n' 'd' 'i' 'lOCode' 'locCodeAndComment'],['loc' 'd' 'i' 'lOCode' 'locCodeAndComment' 'total_Op']
+ringnorm.csv,7400,21,0,0,0.15173,0.21731,0.153641,0.204382,27.0,16.48,16,10.0,15,15,16,12.0,12,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=0.8280130366095824,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=12,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,16,10,"['V1' 'V2' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V12' 'V13' 'V15' 'V16'
+ 'V17' 'V18' 'V20']",['V1' 'V3' 'V4' 'V7' 'V8' 'V13' 'V15' 'V18' 'V19' 'V20'],"['V1' 'V2' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V12' 'V13' 'V15' 'V16'
+ 'V17' 'V18' 'V20']",['V1' 'V3' 'V4' 'V7' 'V8' 'V13' 'V15' 'V18' 'V19' 'V20']
+churn.csv,5000,34,2,2468,0.212188,0.200153,0.20288,0.203306,2.6666666666666665,3.963636363636364,20,13.0,2,2,4,15.0,3,3,8,9.666666666666666,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,20,13,"['state' 'account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_day_charge' 'total_eve_minutes'
+ 'total_night_minutes' 'total_night_charge' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_1' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_8'
+ 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_1' 'voice_mail_plan_0'
+ 'voice_mail_plan_1' 'total_day_minutes' 'total_eve_charge'
+ 'total_night_minutes' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['state' 'account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_day_charge' 'total_eve_minutes'
+ 'total_night_minutes' 'total_night_charge' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_1' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_8'
+ 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_1' 'voice_mail_plan_0'
+ 'voice_mail_plan_1' 'total_day_minutes' 'total_eve_charge'
+ 'total_night_minutes' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']"
+Contaminant.csv,2400,31,2,2468,0.178834,0.167903,0.165362,0.1417,17.333333333333336,24.92,22,24.0,10,10,20,16.5,14,14,22,18.0,"MLPClassifier(activation='logistic', alpha=0.4397019012394412,
+              hidden_layer_sizes=10, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.4238857881941312,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,22,24,"['s12' 's13' 's14' 's15' 's21' 's23' 's25' 's34' 's35' 's36' 's41' 's42'
+ 's45' 's51' 's52' 's53' 's54' 's56' 's61' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's25' 's31' 's34' 's36' 's41' 's42'
+ 's45' 's46' 's51' 's52' 's53' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's25' 's34' 's35' 's36' 's41' 's42'
+ 's45' 's51' 's52' 's53' 's54' 's56' 's61' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's25' 's31' 's34' 's36' 's41' 's42'
+ 's45' 's46' 's51' 's52' 's53' 's54' 's56' 's61' 's62' 's63' 's64' 's65']"
+kc1.csv,2109,22,3,3702,0.347329,0.344996,0.337222,0.337677,99.9,10.057142857142857,8,6.0,1,0,0,0.0,10,8,4,4.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.6436862563490477,
+              hidden_layer_sizes=10, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,8,6,['loc' 'd' 'i' 'b' 'lOCode' 'locCodeAndComment' 'total_Op' 'branchCount'],['loc' 'd' 'b' 'lOCode' 'locCodeAndComment' 'branchCount'],['loc' 'd' 'i' 'b' 'lOCode' 'locCodeAndComment' 'total_Op' 'branchCount'],['loc' 'd' 'b' 'lOCode' 'locCodeAndComment' 'branchCount']
+ringnorm.csv,7400,21,1,1234,0.213778,0.216359,0.240887,0.249843,16.5,15.0,10,10.0,11,11,10,7.454545454545454,10,10,10,7.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=10,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V2' 'V5' 'V7' 'V9' 'V12' 'V13' 'V15' 'V18' 'V20'],['V1' 'V2' 'V4' 'V5' 'V9' 'V10' 'V13' 'V15' 'V18' 'V20'],['V1' 'V2' 'V5' 'V7' 'V9' 'V12' 'V13' 'V15' 'V18' 'V20'],['V1' 'V2' 'V4' 'V5' 'V9' 'V10' 'V13' 'V15' 'V18' 'V20']
+churn.csv,5000,34,3,3702,0.211256,0.205516,0.196091,0.197877,2.703030303030303,3.9818181818181824,20,12.0,2,2,4,15.0,3,3,8,9.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,20,12,"['account_length' 'area_code_408' 'area_code_415' 'area_code_510'
+ 'international_plan_0' 'international_plan_1' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_day_calls' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_calls' 'total_night_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_1' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_9']","['international_plan_1' 'number_vmail_messages' 'total_day_minutes'
+ 'total_eve_calls' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_8']","['account_length' 'area_code_408' 'area_code_415' 'area_code_510'
+ 'international_plan_0' 'international_plan_1' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_day_calls' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_calls' 'total_night_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_1' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_9']","['international_plan_1' 'number_vmail_messages' 'total_day_minutes'
+ 'total_eve_calls' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_8']"
+ringnorm.csv,7400,21,2,2468,0.142775,0.210159,0.16571,0.21205,27.75,16.5,17,10.0,15,15,17,12.733333333333333,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1.2783339351959968,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,17,10,"['V1' 'V2' 'V3' 'V5' 'V6' 'V7' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V17' 'V18' 'V19' 'V20']",['V1' 'V2' 'V4' 'V6' 'V7' 'V9' 'V13' 'V15' 'V18' 'V19'],"['V1' 'V2' 'V3' 'V5' 'V6' 'V7' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V17' 'V18' 'V19' 'V20']",['V1' 'V2' 'V4' 'V6' 'V7' 'V9' 'V13' 'V15' 'V18' 'V19']
+Contaminant.csv,2400,31,3,3702,0.240511,0.239736,0.288532,0.251377,2.6799999999999997,3.013333333333333,15,20.0,2,2,5,11.0,2,2,6,15.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,15,20,"['s12' 's14' 's15' 's23' 's31' 's32' 's35' 's36' 's42' 's45' 's51' 's56'
+ 's61' 's62' 's65']","['s12' 's14' 's15' 's21' 's23' 's24' 's31' 's32' 's34' 's35' 's42' 's45'
+ 's51' 's52' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's14' 's15' 's23' 's31' 's32' 's35' 's36' 's42' 's45' 's51' 's56'
+ 's61' 's62' 's65']","['s12' 's14' 's15' 's21' 's23' 's24' 's31' 's32' 's34' 's35' 's42' 's45'
+ 's51' 's52' 's56' 's61' 's62' 's63' 's64' 's65']"
+kc1.csv,2109,22,4,4936,0.348309,0.346106,0.342136,0.343679,1.1142857142857143,11.571428571428573,6,6.0,1,1,0,4.0,10,9,6,4.444444444444445,"MLPClassifier(activation='logistic', alpha=0.05137652472297201,
+              hidden_layer_sizes=1, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.7691004977837708,
+              hidden_layer_sizes=10, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,6,6,['l' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op'],['loc' 'd' 'i' 'lOComment' 'lOBlank' 'locCodeAndComment'],['l' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op'],['loc' 'd' 'i' 'lOComment' 'lOBlank' 'locCodeAndComment']
+Contaminant.csv,2400,31,4,4936,0.303194,0.181267,0.269597,0.160854,1.28,22.866666666666667,21,19.0,1,1,0,16.0,14,14,19,14.214285714285714,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.541739946600627,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,21,19,"['s12' 's14' 's15' 's21' 's23' 's25' 's32' 's34' 's35' 's36' 's42' 's43'
+ 's45' 's46' 's51' 's52' 's53' 's56' 's61' 's62' 's63']","['s12' 's13' 's14' 's15' 's21' 's31' 's35' 's36' 's41' 's42' 's43' 's45'
+ 's46' 's51' 's54' 's56' 's61' 's62' 's64']","['s12' 's14' 's15' 's21' 's23' 's25' 's32' 's34' 's35' 's36' 's42' 's43'
+ 's45' 's46' 's51' 's52' 's53' 's56' 's61' 's62' 's63']","['s12' 's13' 's14' 's15' 's21' 's31' 's35' 's36' 's41' 's42' 's43' 's45'
+ 's46' 's51' 's54' 's56' 's61' 's62' 's64']"
+ringnorm.csv,7400,21,3,3702,0.151189,0.151714,0.152381,0.162235,27.0,26.25,16,15.0,15,15,16,12.0,15,15,15,11.266666666666667,"MLPClassifier(activation='logistic', alpha=1.2426418104441967,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.2287241833671765,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,16,15,"['V1' 'V2' 'V3' 'V4' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14'
+ 'V15' 'V18' 'V19']","['V1' 'V2' 'V3' 'V4' 'V8' 'V9' 'V10' 'V13' 'V14' 'V15' 'V16' 'V17' 'V18'
+ 'V19' 'V20']","['V1' 'V2' 'V3' 'V4' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14'
+ 'V15' 'V18' 'V19']","['V1' 'V2' 'V3' 'V4' 'V8' 'V9' 'V10' 'V13' 'V14' 'V15' 'V16' 'V17' 'V18'
+ 'V19' 'V20']"
+churn.csv,5000,34,4,4936,0.153681,0.155363,0.148222,0.158342,8.727272727272727,16.278787878787877,15,13.0,6,6,12,11.166666666666666,13,12,11,9.666666666666666,"MLPClassifier(activation='logistic', alpha=0.3110755034657945,
+              hidden_layer_sizes=6, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.2692181129609905,
+              hidden_layer_sizes=13, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,15,13,"['phone_number' 'international_plan_0' 'voice_mail_plan_0'
+ 'total_day_minutes' 'total_day_charge' 'total_eve_charge'
+ 'total_night_minutes' 'total_night_charge' 'total_intl_minutes'
+ 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_8' 'number_customer_service_calls_9']","['international_plan_0' 'voice_mail_plan_0' 'total_day_minutes'
+ 'total_eve_charge' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_8'
+ 'number_customer_service_calls_9']","['phone_number' 'international_plan_0' 'voice_mail_plan_0'
+ 'total_day_minutes' 'total_day_charge' 'total_eve_charge'
+ 'total_night_minutes' 'total_night_charge' 'total_intl_minutes'
+ 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_8' 'number_customer_service_calls_9']","['international_plan_0' 'voice_mail_plan_0' 'total_day_minutes'
+ 'total_eve_charge' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_8'
+ 'number_customer_service_calls_9']"
+kc1.csv,2109,22,5,6170,0.343021,0.340898,0.352856,0.364941,1.1714285714285715,9.904761904761905,9,5.0,1,1,0,7.0,8,8,5,3.75,"MLPClassifier(activation='logistic', alpha=0.009969079956177747,
+              hidden_layer_sizes=1, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.2520545962619368,
+              hidden_layer_sizes=8, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,9,5,['loc' 'v(g)' 'l' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op' 'branchCount'],['loc' 'v(g)' 'iv(g)' 'lOCode' 'total_Opnd'],['loc' 'v(g)' 'l' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op' 'branchCount'],['loc' 'v(g)' 'iv(g)' 'lOCode' 'total_Opnd']
+churn.csv,5000,34,5,6170,0.195541,0.194916,0.223378,0.201501,4.309090909090909,2.5939393939393938,15,11.0,3,3,9,11.333333333333334,2,2,6,8.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,15,11,"['state' 'area_code_415' 'area_code_510' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_8'
+ 'number_customer_service_calls_9']","['state' 'international_plan_0' 'voice_mail_plan_0' 'total_day_minutes'
+ 'total_eve_minutes' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']","['state' 'area_code_415' 'area_code_510' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_8'
+ 'number_customer_service_calls_9']","['state' 'international_plan_0' 'voice_mail_plan_0' 'total_day_minutes'
+ 'total_eve_minutes' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']"
+Contaminant.csv,2400,31,5,6170,0.229901,0.16423,0.297086,0.161032,2.96,23.52,18,21.0,2,2,9,13.5,14,14,19,15.714285714285714,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.44830019869362003,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,18,21,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's24' 's31' 's35' 's46' 's51'
+ 's52' 's53' 's56' 's61' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's31' 's35' 's36' 's41' 's42' 's43'
+ 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's64' 's65']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's24' 's31' 's35' 's46' 's51'
+ 's52' 's53' 's56' 's61' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's31' 's35' 's36' 's41' 's42' 's43'
+ 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's64' 's65']"
+kc1.csv,2109,22,6,7404,0.346557,0.348363,0.356329,0.363819,1.1333333333333333,2.2857142857142856,7,3.0,1,1,0,5.0,2,2,1,2.0,"MLPClassifier(activation='logistic', alpha=0.00020106192689238909,
+              hidden_layer_sizes=1, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.0000000000000003e-05,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,7,3,['loc' 'v(g)' 'd' 'i' 'locCodeAndComment' 'total_Op' 'total_Opnd'],['loc' 'total_Op' 'total_Opnd'],['loc' 'v(g)' 'd' 'i' 'locCodeAndComment' 'total_Op' 'total_Opnd'],['loc' 'total_Op' 'total_Opnd']
+ringnorm.csv,7400,21,4,4936,0.148144,0.21264,0.157084,0.197488,27.73,16.48,17,10.0,15,15,17,12.666666666666666,12,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1.2846883543286196,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=12,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,17,10,"['V1' 'V2' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V10' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V18' 'V19' 'V20']",['V1' 'V2' 'V3' 'V4' 'V7' 'V12' 'V13' 'V15' 'V18' 'V19'],"['V1' 'V2' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V10' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V18' 'V19' 'V20']",['V1' 'V2' 'V3' 'V4' 'V7' 'V12' 'V13' 'V15' 'V18' 'V19']
+Contaminant.csv,2400,31,6,7404,0.163877,0.23498,0.150144,0.254149,24.906666666666666,2.7466666666666666,24,16.0,14,14,23,17.928571428571427,2,2,4,12.0,"MLPClassifier(activation='logistic', alpha=0.4343550119008667,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,24,16,"['s12' 's13' 's14' 's15' 's21' 's23' 's24' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's45' 's46' 's51' 's52' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's23' 's31' 's32' 's35' 's42' 's43' 's45' 's51'
+ 's56' 's61' 's63' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's24' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's45' 's46' 's51' 's52' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's23' 's31' 's32' 's35' 's42' 's43' 's45' 's51'
+ 's56' 's61' 's63' 's65']"
+churn.csv,5000,34,6,7404,0.188606,0.153831,0.193407,0.169063,2.9454545454545453,19.078787878787878,18,12.0,2,2,11,13.5,14,14,11,8.928571428571429,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.9781037781490012,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,18,12,"['state' 'area_code_415' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'number_vmail_messages' 'total_day_minutes'
+ 'total_eve_charge' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_0' 'number_vmail_messages'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_charge'
+ 'total_intl_calls' 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_9']","['state' 'area_code_415' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'number_vmail_messages' 'total_day_minutes'
+ 'total_eve_charge' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_0' 'number_vmail_messages'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_charge'
+ 'total_intl_calls' 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_9']"
+kc1.csv,2109,22,7,8638,0.33516,0.342061,0.372098,0.374734,1.1523809523809523,2.4190476190476193,8,5.0,1,1,0,6.0,2,2,2,3.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,8,5,['loc' 'ev(g)' 'd' 'i' 'b' 'lOCode' 'locCodeAndComment' 'total_Op'],['loc' 't' 'lOBlank' 'total_Op' 'total_Opnd'],['loc' 'ev(g)' 'd' 'i' 'b' 'lOCode' 'locCodeAndComment' 'total_Op'],['loc' 't' 'lOBlank' 'total_Op' 'total_Opnd']
+ringnorm.csv,7400,21,5,6170,0.148611,0.215437,0.148416,0.209618,27.75,16.5,17,10.0,15,15,17,12.733333333333333,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1.1867555077688117,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,17,10,"['V1' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']",['V1' 'V2' 'V5' 'V6' 'V7' 'V8' 'V9' 'V13' 'V15' 'V18'],"['V1' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']",['V1' 'V2' 'V5' 'V6' 'V7' 'V8' 'V9' 'V13' 'V15' 'V18']
+churn.csv,5000,34,7,8638,0.18652,0.193147,0.203337,0.199198,2.981818181818182,4.2,18,15.0,2,2,11,13.5,3,3,10,11.333333333333334,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,18,15,"['account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_1' 'total_day_calls'
+ 'total_day_charge' 'total_eve_charge' 'total_night_minutes'
+ 'total_night_charge' 'total_intl_minutes' 'total_intl_calls'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_calls' 'total_day_charge'
+ 'total_eve_charge' 'total_night_charge' 'total_intl_charge'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_9']","['account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_1' 'total_day_calls'
+ 'total_day_charge' 'total_eve_charge' 'total_night_minutes'
+ 'total_night_charge' 'total_intl_minutes' 'total_intl_calls'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_calls' 'total_day_charge'
+ 'total_eve_charge' 'total_night_charge' 'total_intl_charge'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_9']"
+ringnorm.csv,7400,21,7,8638,0.145439,0.151691,0.151793,0.152864,27.75,27.73,17,17.0,15,15,17,12.733333333333333,15,15,17,12.666666666666666,"MLPClassifier(activation='logistic', alpha=1.36198264138955,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.4183348826396522,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,17,17,"['V1' 'V2' 'V3' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']","['V1' 'V2' 'V3' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V16'
+ 'V17' 'V18' 'V19' 'V20']","['V1' 'V2' 'V3' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']","['V1' 'V2' 'V3' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V16'
+ 'V17' 'V18' 'V19' 'V20']"
+Contaminant.csv,2400,31,7,8638,0.165149,0.16653,0.150582,0.166436,19.94666666666667,22.26,25,22.0,11,11,24,18.727272727272727,13,13,19,16.46153846153846,"MLPClassifier(activation='logistic', alpha=0.3932804705650149,
+              hidden_layer_sizes=11, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.41124227715081774,
+              hidden_layer_sizes=13, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,25,22,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's25' 's31' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's62' 's63' 's64'
+ 's65']","['s12' 's13' 's15' 's16' 's21' 's23' 's25' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's45' 's51' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's25' 's31' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's62' 's63' 's64'
+ 's65']","['s12' 's13' 's15' 's16' 's21' 's23' 's25' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's45' 's51' 's54' 's56' 's61' 's62' 's63' 's64' 's65']"
+kc1.csv,2109,22,8,9872,0.347503,0.348146,0.349327,0.345552,1.1333333333333333,17.714285714285715,7,8.0,1,1,0,5.0,14,14,3,5.928571428571429,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.9587598116855873,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,7,8,['v(g)' 'n' 'd' 't' 'lOComment' 'locCodeAndComment' 'uniq_Opnd'],"['loc' 'v(g)' 'd' 'i' 'lOComment' 'locCodeAndComment' 'uniq_Opnd'
+ 'branchCount']",['v(g)' 'n' 'd' 't' 'lOComment' 'locCodeAndComment' 'uniq_Opnd'],"['loc' 'v(g)' 'd' 'i' 'lOComment' 'locCodeAndComment' 'uniq_Opnd'
+ 'branchCount']"
+churn.csv,5000,34,8,9872,0.195898,0.194995,0.192023,0.233227,2.909090909090909,4.206060606060606,18,14.0,2,2,11,13.5,3,3,12,10.333333333333334,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,18,14,"['state' 'area_code_408' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_charge' 'total_eve_charge'
+ 'total_night_charge' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['state' 'area_code_408' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_charge' 'total_eve_charge'
+ 'total_night_charge' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']"
+ringnorm.csv,7400,21,6,7404,0.215485,0.21566,0.191615,0.215392,16.5,16.48,10,10.0,11,11,10,7.454545454545454,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V2' 'V3' 'V7' 'V12' 'V13' 'V15' 'V17' 'V18' 'V19'],['V1' 'V2' 'V3' 'V4' 'V6' 'V8' 'V12' 'V13' 'V17' 'V18'],['V1' 'V2' 'V3' 'V7' 'V12' 'V13' 'V15' 'V17' 'V18' 'V19'],['V1' 'V2' 'V3' 'V4' 'V6' 'V8' 'V12' 'V13' 'V17' 'V18']
+kc1.csv,2109,22,9,11106,0.344793,0.347216,0.363025,0.368899,99.9,99.9,7,7.0,1,0,0,0.0,1,0,0,0.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,7,7,['v(g)' 'ev(g)' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op'],['v(g)' 'ev(g)' 'd' 'i' 't' 'lOComment' 'locCodeAndComment'],['v(g)' 'ev(g)' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op'],['v(g)' 'ev(g)' 'd' 'i' 't' 'lOComment' 'locCodeAndComment']
+Contaminant.csv,2400,31,8,9872,0.234499,0.165558,0.273004,0.17263,2.7333333333333334,23.04,17,20.0,2,2,4,12.5,14,14,18,14.928571428571429,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.44013225171617043,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,17,20,"['s12' 's13' 's14' 's15' 's21' 's23' 's32' 's35' 's42' 's43' 's45' 's51'
+ 's56' 's61' 's62' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's24' 's31' 's34' 's35' 's36' 's41' 's42'
+ 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's32' 's35' 's42' 's43' 's45' 's51'
+ 's56' 's61' 's62' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's24' 's31' 's34' 's35' 's36' 's41' 's42'
+ 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's65']"
+churn.csv,5000,34,9,11106,0.214949,0.202679,0.210835,0.177006,4.345454545454545,3.9454545454545453,16,11.0,3,3,10,12.0,3,3,7,8.333333333333334,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,16,11,"['state' 'account_length' 'international_plan_0' 'voice_mail_plan_0'
+ 'total_day_minutes' 'total_day_charge' 'total_eve_minutes'
+ 'total_eve_calls' 'total_night_charge' 'total_intl_calls'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_charge' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_0' 'voice_mail_plan_0'
+ 'total_day_minutes' 'total_day_charge' 'total_eve_minutes'
+ 'total_eve_calls' 'total_night_charge' 'total_intl_calls'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_charge' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_9']"
+Contaminant.csv,2400,31,9,11106,0.247292,0.153668,0.277869,0.185482,2.8933333333333335,23.333333333333332,17,20.0,2,2,8,12.5,14,14,19,15.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.42881441298230166,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,17,20,"['s12' 's14' 's15' 's21' 's31' 's32' 's34' 's35' 's42' 's45' 's46' 's51'
+ 's56' 's61' 's62' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's31' 's35' 's36' 's41' 's42' 's45'
+ 's46' 's51' 's53' 's54' 's56' 's61' 's64' 's65']","['s12' 's14' 's15' 's21' 's31' 's32' 's34' 's35' 's42' 's45' 's46' 's51'
+ 's56' 's61' 's62' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's31' 's35' 's36' 's41' 's42' 's45'
+ 's46' 's51' 's53' 's54' 's56' 's61' 's64' 's65']"
+ringnorm.csv,7400,21,8,9872,0.144379,0.210798,0.15576,0.223647,27.0,18.0,16,10.0,15,15,16,12.0,12,12,10,7.5,"MLPClassifier(activation='logistic', alpha=1.173715461430745,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=12,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,16,10,"['V1' 'V2' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V10' 'V12' 'V13' 'V15' 'V17'
+ 'V18' 'V19' 'V20']",['V1' 'V2' 'V5' 'V6' 'V7' 'V9' 'V10' 'V13' 'V18' 'V19'],"['V1' 'V2' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V10' 'V12' 'V13' 'V15' 'V17'
+ 'V18' 'V19' 'V20']",['V1' 'V2' 'V5' 'V6' 'V7' 'V9' 'V10' 'V13' 'V18' 'V19']
+kc1.csv,2109,22,10,12340,0.346738,0.344902,0.357547,0.354574,1.1142857142857143,1.1714285714285715,6,9.0,1,1,0,4.0,1,1,0,7.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,6,9,['ev(g)' 'n' 'd' 'b' 'locCodeAndComment' 'uniq_Opnd'],"['ev(g)' 'd' 'i' 'b' 'lOCode' 'lOComment' 'locCodeAndComment' 'total_Op'
+ 'branchCount']",['ev(g)' 'n' 'd' 'b' 'locCodeAndComment' 'uniq_Opnd'],"['ev(g)' 'd' 'i' 'b' 'lOCode' 'lOComment' 'locCodeAndComment' 'total_Op'
+ 'branchCount']"
+churn.csv,5000,34,10,12340,0.14679,0.144989,0.151592,0.14684,11.151515151515152,19.24848484848485,13,13.0,8,8,13,9.75,14,14,12,9.714285714285714,"MLPClassifier(activation='logistic', alpha=0.5197521289629061,
+              hidden_layer_sizes=8, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.729097137552619,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,13,13,"['international_plan_0' 'voice_mail_plan_1' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_eve_charge'
+ 'total_night_minutes' 'total_intl_minutes' 'total_intl_calls'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_3']","['international_plan_1' 'voice_mail_plan_0' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_0' 'voice_mail_plan_1' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_eve_charge'
+ 'total_night_minutes' 'total_intl_minutes' 'total_intl_calls'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_3']","['international_plan_1' 'voice_mail_plan_0' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']"
+Contaminant.csv,2400,31,10,12340,0.186505,0.163773,0.174807,0.144845,11.993333333333334,24.92,22,24.0,7,7,19,16.428571428571427,14,14,23,18.0,"MLPClassifier(activation='logistic', alpha=0.4877587091439558,
+              hidden_layer_sizes=7, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.44318807362312507,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,22,24,"['s12' 's13' 's14' 's15' 's21' 's23' 's24' 's25' 's35' 's36' 's41' 's42'
+ 's43' 's45' 's51' 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's25' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's24' 's25' 's35' 's36' 's41' 's42'
+ 's43' 's45' 's51' 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's25' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's53' 's56' 's61' 's62' 's63' 's64' 's65']"
+kc1.csv,2109,22,11,13574,0.348106,0.348266,0.358759,0.355217,1.1904761904761905,1.1333333333333333,10,7.0,1,1,0,7.0,1,1,0,5.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,7,"['loc' 'v(g)' 'iv(g)' 'v' 'l' 'd' 'b' 'lOBlank' 'locCodeAndComment'
+ 'uniq_Opnd']",['loc' 'v(g)' 'iv(g)' 'd' 'i' 'lOCode' 'locCodeAndComment'],"['loc' 'v(g)' 'iv(g)' 'v' 'l' 'd' 'b' 'lOBlank' 'locCodeAndComment'
+ 'uniq_Opnd']",['loc' 'v(g)' 'iv(g)' 'd' 'i' 'lOCode' 'locCodeAndComment']
+Contaminant.csv,2400,31,11,13574,0.243605,0.263828,0.234464,0.265292,2.9466666666666668,2.8933333333333335,19,17.0,2,2,8,14.0,2,2,6,12.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,19,17,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's31' 's34' 's35' 's43' 's46'
+ 's51' 's52' 's53' 's56' 's61' 's63' 's65']","['s12' 's13' 's14' 's15' 's23' 's24' 's31' 's32' 's43' 's45' 's51' 's52'
+ 's54' 's56' 's61' 's62' 's63']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's31' 's34' 's35' 's43' 's46'
+ 's51' 's52' 's53' 's56' 's61' 's63' 's65']","['s12' 's13' 's14' 's15' 's23' 's24' 's31' 's32' 's43' 's45' 's51' 's52'
+ 's54' 's56' 's61' 's62' 's63']"
+ringnorm.csv,7400,21,9,11106,0.212286,0.220331,0.240683,0.224865,16.5,16.5,10,10.0,11,11,10,7.454545454545454,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V2' 'V4' 'V5' 'V6' 'V8' 'V9' 'V13' 'V17' 'V18' 'V19'],['V1' 'V2' 'V5' 'V6' 'V7' 'V8' 'V10' 'V13' 'V18' 'V20'],['V2' 'V4' 'V5' 'V6' 'V8' 'V9' 'V13' 'V17' 'V18' 'V19'],['V1' 'V2' 'V5' 'V6' 'V7' 'V8' 'V10' 'V13' 'V18' 'V20']
+ringnorm.csv,7400,21,10,12340,0.147506,0.213982,0.166245,0.220042,27.75,16.5,17,10.0,15,15,17,12.733333333333333,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=0.9838760746290576,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,17,10,"['V1' 'V2' 'V3' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']",['V1' 'V3' 'V5' 'V6' 'V7' 'V13' 'V15' 'V18' 'V19' 'V20'],"['V1' 'V2' 'V3' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']",['V1' 'V3' 'V5' 'V6' 'V7' 'V13' 'V15' 'V18' 'V19' 'V20']
+churn.csv,5000,34,11,13574,0.205017,0.204529,0.170579,0.167717,2.9454545454545453,3.8909090909090907,18,11.0,2,2,11,13.5,3,3,9,8.333333333333334,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,18,11,"['state' 'account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'number_vmail_messages'
+ 'total_day_minutes' 'total_day_calls' 'total_eve_charge'
+ 'total_night_charge' 'total_intl_minutes'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_minutes' 'total_night_charge' 'total_intl_minutes'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7']","['state' 'account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'number_vmail_messages'
+ 'total_day_minutes' 'total_day_calls' 'total_eve_charge'
+ 'total_night_charge' 'total_intl_minutes'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_minutes' 'total_night_charge' 'total_intl_minutes'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7']"
+kc1.csv,2109,22,12,14808,0.342438,0.34545,0.37212,0.374669,1.2666666666666666,1.1333333333333333,14,7.0,1,1,0,10.0,1,1,0,5.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,14,7,"['v(g)' 'iv(g)' 'n' 'v' 'l' 'd' 'i' 'e' 'b' 't' 'lOComment' 'lOBlank'
+ 'locCodeAndComment' 'total_Opnd']",['v' 'd' 'i' 'b' 't' 'locCodeAndComment' 'total_Opnd'],"['v(g)' 'iv(g)' 'n' 'v' 'l' 'd' 'i' 'e' 'b' 't' 'lOComment' 'lOBlank'
+ 'locCodeAndComment' 'total_Opnd']",['v' 'd' 'i' 'b' 't' 'locCodeAndComment' 'total_Opnd']
+Contaminant.csv,2400,31,12,14808,0.239204,0.149599,0.256347,0.190752,3.013333333333333,24.699999999999996,20,20.0,2,2,7,15.0,15,15,19,15.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.39865490927837177,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,20,20,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's26' 's31' 's35' 's36' 's42'
+ 's51' 's52' 's53' 's56' 's61' 's63' 's64' 's65']","['s12' 's13' 's15' 's21' 's23' 's35' 's36' 's41' 's42' 's43' 's45' 's51'
+ 's53' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's26' 's31' 's35' 's36' 's42'
+ 's51' 's52' 's53' 's56' 's61' 's63' 's64' 's65']","['s12' 's13' 's15' 's21' 's23' 's35' 's36' 's41' 's42' 's43' 's45' 's51'
+ 's53' 's54' 's56' 's61' 's62' 's63' 's64' 's65']"
+churn.csv,5000,34,12,14808,0.173122,0.15873,0.155646,0.140667,13.66060606060606,17.72727272727273,18,12.0,9,9,16,12.88888888888889,13,13,12,9.0,"MLPClassifier(activation='logistic', alpha=1.2052231666790925,
+              hidden_layer_sizes=9, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.6078417707997741,
+              hidden_layer_sizes=13, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,18,12,"['international_plan_0' 'international_plan_1' 'voice_mail_plan_0'
+ 'total_day_charge' 'total_eve_minutes' 'total_eve_charge'
+ 'total_night_calls' 'total_night_charge' 'total_intl_minutes'
+ 'total_intl_calls' 'total_intl_charge' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_8' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7']","['international_plan_0' 'international_plan_1' 'voice_mail_plan_0'
+ 'total_day_charge' 'total_eve_minutes' 'total_eve_charge'
+ 'total_night_calls' 'total_night_charge' 'total_intl_minutes'
+ 'total_intl_calls' 'total_intl_charge' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_8' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7']"
+kc1.csv,2109,22,13,16042,0.337621,0.336717,0.38534,0.369505,3.7714285714285714,5.9523809523809526,6,4.0,3,3,4,4.333333333333333,5,5,4,3.0,"MLPClassifier(activation='logistic', alpha=0.07865215515921146,
+              hidden_layer_sizes=3, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.28767409160357416,
+              hidden_layer_sizes=5, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,6,4,['loc' 'iv(g)' 't' 'total_Op' 'total_Opnd' 'branchCount'],['loc' 'i' 'total_Opnd' 'branchCount'],['loc' 'iv(g)' 't' 'total_Op' 'total_Opnd' 'branchCount'],['loc' 'i' 'total_Opnd' 'branchCount']
+ringnorm.csv,7400,21,11,13574,0.149794,0.211434,0.166175,0.204864,27.0,16.5,16,10.0,15,15,16,12.0,12,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1.1900718645320818,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=12,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,16,10,"['V1' 'V2' 'V3' 'V5' 'V6' 'V7' 'V9' 'V10' 'V13' 'V14' 'V15' 'V16' 'V17'
+ 'V18' 'V19' 'V20']",['V1' 'V2' 'V3' 'V4' 'V7' 'V9' 'V13' 'V16' 'V18' 'V19'],"['V1' 'V2' 'V3' 'V5' 'V6' 'V7' 'V9' 'V10' 'V13' 'V14' 'V15' 'V16' 'V17'
+ 'V18' 'V19' 'V20']",['V1' 'V2' 'V3' 'V4' 'V7' 'V9' 'V13' 'V16' 'V18' 'V19']
+churn.csv,5000,34,13,16042,0.202818,0.161707,0.203966,0.140241,2.9454545454545453,14.333333333333336,18,10.0,2,2,11,13.5,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.8736999379833339,
+              hidden_layer_sizes=11, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,18,10,"['state' 'account_length' 'area_code_415' 'international_plan_1'
+ 'voice_mail_plan_0' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_charge' 'total_night_calls' 'total_night_charge'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_8' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_0' 'total_day_charge'
+ 'total_eve_charge' 'total_night_charge' 'total_intl_minutes'
+ 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']","['state' 'account_length' 'area_code_415' 'international_plan_1'
+ 'voice_mail_plan_0' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_charge' 'total_night_calls' 'total_night_charge'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_8' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_0' 'total_day_charge'
+ 'total_eve_charge' 'total_night_charge' 'total_intl_minutes'
+ 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']"
+Contaminant.csv,2400,31,13,16042,0.159324,0.161333,0.17952,0.179316,22.0,24.453333333333333,25,23.0,12,12,22,18.75,14,14,22,17.214285714285715,"MLPClassifier(activation='logistic', alpha=0.4156619380990082,
+              hidden_layer_sizes=12, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.5342282371174115,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,25,23,"['s12' 's13' 's15' 's21' 's23' 's24' 's25' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's51' 's52' 's53' 's54' 's56' 's61' 's62' 's63' 's64'
+ 's65']","['s12' 's13' 's15' 's21' 's23' 's24' 's31' 's32' 's35' 's36' 's41' 's42'
+ 's45' 's46' 's51' 's52' 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's15' 's21' 's23' 's24' 's25' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's51' 's52' 's53' 's54' 's56' 's61' 's62' 's63' 's64'
+ 's65']","['s12' 's13' 's15' 's21' 's23' 's24' 's31' 's32' 's35' 's36' 's41' 's42'
+ 's45' 's46' 's51' 's52' 's53' 's56' 's61' 's62' 's63' 's64' 's65']"
+kc1.csv,2109,22,14,17276,0.345557,0.345249,0.342657,0.346803,2.5142857142857142,9.0,9,6.0,2,2,1,6.5,7,7,5,4.428571428571429,"MLPClassifier(activation='logistic', alpha=0.0990247922646153,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.5011200808516003,
+              hidden_layer_sizes=7, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,9,6,['loc' 'v(g)' 'n' 'v' 'd' 'b' 'lOCode' 'locCodeAndComment' 'branchCount'],['loc' 'iv(g)' 'd' 'locCodeAndComment' 'uniq_Opnd' 'branchCount'],['loc' 'v(g)' 'n' 'v' 'd' 'b' 'lOCode' 'locCodeAndComment' 'branchCount'],['loc' 'iv(g)' 'd' 'locCodeAndComment' 'uniq_Opnd' 'branchCount']
+ringnorm.csv,7400,21,12,14808,0.215527,0.214681,0.243644,0.217106,15.0,16.5,10,10.0,10,10,10,7.5,12,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=10,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=12,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V3' 'V5' 'V6' 'V11' 'V12' 'V13' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V4' 'V7' 'V8' 'V14' 'V16' 'V18' 'V19'],['V1' 'V3' 'V5' 'V6' 'V11' 'V12' 'V13' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V4' 'V7' 'V8' 'V14' 'V16' 'V18' 'V19']
+ringnorm.csv,7400,21,13,16042,0.150559,0.221541,0.152646,0.214621,30.0,16.5,20,10.0,15,15,20,15.0,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1.2066393648527216,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,20,10,"['V1' 'V2' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13'
+ 'V14' 'V15' 'V16' 'V17' 'V18' 'V19' 'V20']",['V1' 'V2' 'V4' 'V7' 'V8' 'V9' 'V15' 'V17' 'V18' 'V20'],"['V1' 'V2' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13'
+ 'V14' 'V15' 'V16' 'V17' 'V18' 'V19' 'V20']",['V1' 'V2' 'V4' 'V7' 'V8' 'V9' 'V15' 'V17' 'V18' 'V20']
+churn.csv,5000,34,14,17276,0.209765,0.203286,0.213029,0.195871,2.9454545454545453,2.5090909090909093,18,9.0,2,2,12,13.5,2,2,5,6.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,18,9,"['account_length' 'area_code_408' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_1' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_8']","['international_plan_0' 'international_plan_1' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5']","['account_length' 'area_code_408' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_1' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_3' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_8']","['international_plan_0' 'international_plan_1' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5']"
+kc1.csv,2109,22,15,18510,0.336415,0.34095,0.360726,0.37068,2.4190476190476193,1.1142857142857143,8,6.0,2,2,1,6.0,1,1,0,4.0,"MLPClassifier(activation='logistic', alpha=0.2667871788505514,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.0000000000000004e-05,
+              hidden_layer_sizes=1, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,8,6,['loc' 'v(g)' 'ev(g)' 'd' 'b' 'locCodeAndComment' 'uniq_Opnd' 'total_Op'],['v(g)' 'iv(g)' 'l' 'd' 'locCodeAndComment' 'uniq_Opnd'],['loc' 'v(g)' 'ev(g)' 'd' 'b' 'locCodeAndComment' 'uniq_Opnd' 'total_Op'],['v(g)' 'iv(g)' 'l' 'd' 'locCodeAndComment' 'uniq_Opnd']
+Contaminant.csv,2400,31,14,17276,0.156299,0.153063,0.159862,0.170106,23.14,24.453333333333333,24,23.0,13,13,23,18.0,14,14,22,17.214285714285715,"MLPClassifier(activation='logistic', alpha=0.38445783115443755,
+              hidden_layer_sizes=13, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.36259477531338635,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,24,23,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's24' 's31' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's52' 's54' 's56' 's61' 's62' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's24' 's25' 's26' 's31' 's34' 's35'
+ 's36' 's41' 's42' 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's64']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's24' 's31' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's52' 's54' 's56' 's61' 's62' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's24' 's25' 's26' 's31' 's34' 's35'
+ 's36' 's41' 's42' 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's64']"
+churn.csv,5000,34,15,18510,0.204889,0.203627,0.215896,0.202914,2.909090909090909,2.5575757575757576,18,11.0,2,2,7,13.5,2,2,6,8.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,18,11,"['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_minutes' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_8']","['state' 'international_plan_0' 'number_vmail_messages'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_minutes' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_8']","['state' 'international_plan_0' 'number_vmail_messages'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']"
+Contaminant.csv,2400,31,15,18510,0.165725,0.178168,0.156661,0.193103,19.94666666666667,20.8,25,22.0,11,11,24,18.727272727272727,12,12,21,16.5,"MLPClassifier(activation='logistic', alpha=0.4861944214456405,
+              hidden_layer_sizes=11, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.3619760128273116,
+              hidden_layer_sizes=12, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,25,22,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's25' 's31' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's62' 's63' 's64'
+ 's65']","['s12' 's13' 's15' 's16' 's21' 's23' 's24' 's26' 's31' 's35' 's41' 's42'
+ 's43' 's45' 's51' 's53' 's54' 's56' 's61' 's62' 's63' 's64']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's25' 's31' 's35' 's36' 's41'
+ 's42' 's43' 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's62' 's63' 's64'
+ 's65']","['s12' 's13' 's15' 's16' 's21' 's23' 's24' 's26' 's31' 's35' 's41' 's42'
+ 's43' 's45' 's51' 's53' 's54' 's56' 's61' 's62' 's63' 's64']"
+ringnorm.csv,7400,21,14,17276,0.147857,0.216189,0.147967,0.202958,27.75,16.5,17,10.0,15,15,17,12.733333333333333,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1.3226104042230524,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,17,10,"['V1' 'V2' 'V4' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']",['V1' 'V4' 'V6' 'V7' 'V8' 'V9' 'V13' 'V15' 'V17' 'V18'],"['V1' 'V2' 'V4' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']",['V1' 'V4' 'V6' 'V7' 'V8' 'V9' 'V13' 'V15' 'V17' 'V18']
+kc1.csv,2109,22,16,19744,0.349733,0.347218,0.338957,0.326411,1.1333333333333333,8.857142857142856,7,10.0,1,1,0,5.0,6,6,9,7.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.5745930075484577,
+              hidden_layer_sizes=6, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,7,10,['loc' 'v(g)' 'n' 'd' 'i' 'b' 'locCodeAndComment'],"['loc' 'v(g)' 'ev(g)' 'n' 'd' 'lOCode' 'locCodeAndComment' 'uniq_Op'
+ 'total_Opnd' 'branchCount']",['loc' 'v(g)' 'n' 'd' 'i' 'b' 'locCodeAndComment'],"['loc' 'v(g)' 'ev(g)' 'n' 'd' 'lOCode' 'locCodeAndComment' 'uniq_Op'
+ 'total_Opnd' 'branchCount']"
+churn.csv,5000,34,16,19744,0.189288,0.194589,0.236307,0.198592,2.981818181818182,3.9818181818181824,18,12.0,2,2,11,13.5,3,3,9,9.0,"MLPClassifier(activation='logistic', alpha=1.0000000000000003e-05,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,18,12,"['account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'number_vmail_messages' 'total_day_calls'
+ 'total_day_charge' 'total_eve_charge' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_0' 'total_day_minutes' 'total_eve_minutes'
+ 'total_night_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'number_vmail_messages' 'total_day_calls'
+ 'total_day_charge' 'total_eve_charge' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_0' 'total_day_minutes' 'total_eve_minutes'
+ 'total_night_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']"
+ringnorm.csv,7400,21,15,18510,0.145742,0.146717,0.153048,0.151223,27.0,27.75,16,17.0,15,15,16,12.0,15,15,17,12.733333333333333,"MLPClassifier(activation='logistic', alpha=1.2658709699787574,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.3421650809132732,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,16,17,"['V1' 'V2' 'V3' 'V4' 'V6' 'V7' 'V8' 'V9' 'V10' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18']","['V1' 'V2' 'V3' 'V4' 'V6' 'V7' 'V8' 'V9' 'V10' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']","['V1' 'V2' 'V3' 'V4' 'V6' 'V7' 'V8' 'V9' 'V10' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18']","['V1' 'V2' 'V3' 'V4' 'V6' 'V7' 'V8' 'V9' 'V10' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V19']"
+kc1.csv,2109,22,17,20978,0.353129,0.351614,0.344489,0.337127,1.1904761904761905,2.1904761904761907,10,2.0,1,1,0,7.0,2,2,1,1.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,2,"['loc' 'v(g)' 'v' 'l' 'd' 'i' 'locCodeAndComment' 'uniq_Opnd' 'total_Op'
+ 'branchCount']",['lOCode' 'total_Opnd'],"['loc' 'v(g)' 'v' 'l' 'd' 'i' 'locCodeAndComment' 'uniq_Opnd' 'total_Op'
+ 'branchCount']",['lOCode' 'total_Opnd']
+Contaminant.csv,2400,31,16,19744,0.239587,0.166014,0.238052,0.152519,2.973333333333333,23.05333333333333,20,20.0,2,2,7,15.0,14,14,19,15.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.49316144716173993,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,20,20,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's26' 's32' 's35' 's42' 's51'
+ 's52' 's53' 's54' 's56' 's61' 's62' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's35' 's36' 's41' 's42' 's43' 's45'
+ 's51' 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's26' 's32' 's35' 's42' 's51'
+ 's52' 's53' 's54' 's56' 's61' 's62' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's35' 's36' 's41' 's42' 's43' 's45'
+ 's51' 's53' 's56' 's61' 's62' 's63' 's64' 's65']"
+churn.csv,5000,34,17,20978,0.220231,0.20763,0.193899,0.189463,4.763636363636364,2.5575757575757576,20,11.0,3,3,16,15.0,2,2,5,8.0,"MLPClassifier(activation='logistic', alpha=1.0000000000000003e-05,
+              hidden_layer_sizes=3, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.0000000000000003e-05,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,20,11,"['account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'voice_mail_plan_1'
+ 'number_vmail_messages' 'total_day_minutes' 'total_day_charge'
+ 'total_eve_calls' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7']","['state' 'account_length' 'international_plan_0' 'number_vmail_messages'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_minutes'
+ 'total_night_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']","['account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'voice_mail_plan_1'
+ 'number_vmail_messages' 'total_day_minutes' 'total_day_charge'
+ 'total_eve_calls' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7']","['state' 'account_length' 'international_plan_0' 'number_vmail_messages'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_minutes'
+ 'total_night_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']"
+Contaminant.csv,2400,31,17,20978,0.154874,0.153808,0.158316,0.180304,23.400000000000002,23.8,24,21.0,13,13,22,18.0,14,14,21,15.714285714285714,"MLPClassifier(activation='logistic', alpha=0.3452741194329627,
+              hidden_layer_sizes=13, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.3159785166176956,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,24,21,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's45' 's46' 's51' 's52' 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's35' 's36' 's41' 's42' 's43' 's45'
+ 's46' 's51' 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's31' 's34' 's35' 's36' 's41'
+ 's42' 's45' 's46' 's51' 's52' 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's35' 's36' 's41' 's42' 's43' 's45'
+ 's46' 's51' 's53' 's56' 's61' 's62' 's63' 's64' 's65']"
+kc1.csv,2109,22,18,22212,0.346644,0.338606,0.344915,0.349162,4.114285714285714,8.285714285714285,9,8.0,3,3,6,6.666666666666667,6,6,7,6.0,"MLPClassifier(activation='logistic', alpha=0.35794315777330443,
+              hidden_layer_sizes=3, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.545100021755297,
+              hidden_layer_sizes=6, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,9,8,['loc' 'v(g)' 'n' 'v' 'd' 'i' 'lOBlank' 'locCodeAndComment' 'total_Opnd'],"['loc' 'd' 'lOCode' 'lOBlank' 'locCodeAndComment' 'uniq_Op' 'uniq_Opnd'
+ 'total_Opnd']",['loc' 'v(g)' 'n' 'v' 'd' 'i' 'lOBlank' 'locCodeAndComment' 'total_Opnd'],"['loc' 'd' 'lOCode' 'lOBlank' 'locCodeAndComment' 'uniq_Op' 'uniq_Opnd'
+ 'total_Opnd']"
+ringnorm.csv,7400,21,16,19744,0.21471,0.212852,0.233181,0.262238,15.0,16.5,10,10.0,10,10,10,7.5,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=10,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V2' 'V3' 'V6' 'V7' 'V13' 'V15' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V12' 'V13' 'V15' 'V17' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V6' 'V7' 'V13' 'V15' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V12' 'V13' 'V15' 'V17' 'V18' 'V19' 'V20']
+Contaminant.csv,2400,31,18,22212,0.248675,0.272894,0.202872,0.31022,2.893333333333333,2.64,20,15.0,2,2,6,15.0,2,2,2,11.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,20,15,"['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's26' 's32' 's35' 's36' 's42'
+ 's45' 's51' 's54' 's56' 's61' 's62' 's63' 's65']","['s12' 's13' 's21' 's26' 's32' 's35' 's41' 's42' 's43' 's45' 's51' 's56'
+ 's61' 's62' 's65']","['s12' 's13' 's14' 's15' 's16' 's21' 's23' 's26' 's32' 's35' 's36' 's42'
+ 's45' 's51' 's54' 's56' 's61' 's62' 's63' 's65']","['s12' 's13' 's21' 's26' 's32' 's35' 's41' 's42' 's43' 's45' 's51' 's56'
+ 's61' 's62' 's65']"
+churn.csv,5000,34,18,22212,0.159888,0.155131,0.149801,0.138841,14.654545454545453,9.333333333333332,16,11.0,10,10,15,11.9,7,7,10,8.285714285714286,"MLPClassifier(activation='logistic', alpha=0.8441747610578642,
+              hidden_layer_sizes=10, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.36834639266054003,
+              hidden_layer_sizes=7, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,16,11,"['state' 'international_plan_0' 'voice_mail_plan_0' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_day_charge' 'total_eve_minutes'
+ 'total_night_minutes' 'total_intl_minutes' 'total_intl_calls'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_0' 'international_plan_1' 'voice_mail_plan_0'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']","['state' 'international_plan_0' 'voice_mail_plan_0' 'voice_mail_plan_1'
+ 'total_day_minutes' 'total_day_charge' 'total_eve_minutes'
+ 'total_night_minutes' 'total_intl_minutes' 'total_intl_calls'
+ 'total_intl_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_0' 'international_plan_1' 'voice_mail_plan_0'
+ 'total_day_minutes' 'total_eve_charge' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']"
+kc1.csv,2109,22,19,23446,0.343875,0.345946,0.362929,0.358254,1.1523809523809523,11.904761904761905,8,4.0,1,1,0,6.0,11,10,4,3.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.44091386488659867,
+              hidden_layer_sizes=11, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,8,4,['ev(g)' 'n' 'v' 'l' 'd' 'locCodeAndComment' 'uniq_Opnd' 'total_Op'],['loc' 'ev(g)' 'd' 'locCodeAndComment'],['ev(g)' 'n' 'v' 'l' 'd' 'locCodeAndComment' 'uniq_Opnd' 'total_Op'],['loc' 'ev(g)' 'd' 'locCodeAndComment']
+ringnorm.csv,7400,21,17,20978,0.212419,0.214125,0.218611,0.233596,16.5,16.5,10,10.0,11,11,10,7.454545454545454,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V2' 'V6' 'V7' 'V8' 'V12' 'V13' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V7' 'V8' 'V10' 'V12' 'V13' 'V19' 'V20'],['V1' 'V2' 'V6' 'V7' 'V8' 'V12' 'V13' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V7' 'V8' 'V10' 'V12' 'V13' 'V19' 'V20']
+Contaminant.csv,2400,31,19,23446,0.243875,0.170469,0.243887,0.167661,2.8533333333333335,22.866666666666667,17,19.0,2,2,5,12.5,14,14,19,14.214285714285714,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.4381308719083415,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,17,19,"['s12' 's13' 's14' 's15' 's21' 's23' 's31' 's32' 's35' 's36' 's41' 's42'
+ 's45' 's51' 's56' 's61' 's65']","['s13' 's15' 's21' 's23' 's25' 's35' 's36' 's41' 's42' 's43' 's45' 's51'
+ 's53' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's31' 's32' 's35' 's36' 's41' 's42'
+ 's45' 's51' 's56' 's61' 's65']","['s13' 's15' 's21' 's23' 's25' 's35' 's36' 's41' 's42' 's43' 's45' 's51'
+ 's53' 's56' 's61' 's62' 's63' 's64' 's65']"
+ringnorm.csv,7400,21,18,22212,0.20766,0.215662,0.209927,0.232362,16.5,16.5,10,10.0,11,11,10,7.454545454545454,12,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=12,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V3' 'V4' 'V8' 'V9' 'V13' 'V15' 'V17' 'V18' 'V19'],['V1' 'V4' 'V6' 'V8' 'V9' 'V13' 'V15' 'V17' 'V19' 'V20'],['V1' 'V3' 'V4' 'V8' 'V9' 'V13' 'V15' 'V17' 'V18' 'V19'],['V1' 'V4' 'V6' 'V8' 'V9' 'V13' 'V15' 'V17' 'V19' 'V20']
+churn.csv,5000,34,19,23446,0.153763,0.156266,0.131601,0.150249,11.381818181818181,19.503030303030304,14,13.0,8,8,13,10.375,14,14,13,9.714285714285714,"MLPClassifier(activation='logistic', alpha=0.15676383854989775,
+              hidden_layer_sizes=8, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.8845551483791676,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,14,13,"['state' 'international_plan_0' 'international_plan_1'
+ 'number_vmail_messages' 'total_day_minutes' 'total_eve_minutes'
+ 'total_night_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['international_plan_0' 'voice_mail_plan_1' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7']","['state' 'international_plan_0' 'international_plan_1'
+ 'number_vmail_messages' 'total_day_minutes' 'total_eve_minutes'
+ 'total_night_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['international_plan_0' 'voice_mail_plan_1' 'total_day_minutes'
+ 'total_day_charge' 'total_eve_minutes' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7']"
+kc1.csv,2109,22,20,24680,0.346202,0.353546,0.3486,0.337758,2.5142857142857142,1.1333333333333333,9,7.0,2,2,2,6.5,1,1,0,5.0,"MLPClassifier(activation='logistic', alpha=0.43549676814750343,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,9,7,['v(g)' 'ev(g)' 'v' 'l' 'i' 'e' 'b' 'lOCode' 'locCodeAndComment'],['loc' 'v(g)' 'd' 'i' 'lOCode' 'locCodeAndComment' 'total_Op'],['v(g)' 'ev(g)' 'v' 'l' 'i' 'e' 'b' 'lOCode' 'locCodeAndComment'],['loc' 'v(g)' 'd' 'i' 'lOCode' 'locCodeAndComment' 'total_Op']
+Contaminant.csv,2400,31,20,24680,0.247287,0.263481,0.228402,0.248199,3.026666666666667,2.7066666666666666,19,16.0,2,2,7,14.0,2,2,4,12.0,"MLPClassifier(activation='logistic', alpha=1.0000000000000003e-05,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,19,16,"['s12' 's13' 's14' 's15' 's21' 's23' 's26' 's31' 's32' 's35' 's45' 's51'
+ 's52' 's53' 's56' 's61' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's23' 's32' 's35' 's41' 's42' 's45' 's51' 's52'
+ 's56' 's61' 's62' 's63']","['s12' 's13' 's14' 's15' 's21' 's23' 's26' 's31' 's32' 's35' 's45' 's51'
+ 's52' 's53' 's56' 's61' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's23' 's32' 's35' 's41' 's42' 's45' 's51' 's52'
+ 's56' 's61' 's62' 's63']"
+churn.csv,5000,34,20,24680,0.198836,0.1544,0.201954,0.13885,2.8848484848484848,18.230303030303034,17,10.0,2,2,7,12.5,14,14,10,7.428571428571429,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.5351143018210425,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,17,10,"['area_code_510' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_minutes' 'total_eve_minutes'
+ 'total_eve_charge' 'total_night_minutes' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_charge'
+ 'number_customer_service_calls_1' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7']","['international_plan_1' 'voice_mail_plan_0' 'total_day_minutes'
+ 'total_eve_minutes' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']","['area_code_510' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_minutes' 'total_eve_minutes'
+ 'total_eve_charge' 'total_night_minutes' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_charge'
+ 'number_customer_service_calls_1' 'number_customer_service_calls_2'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7']","['international_plan_1' 'voice_mail_plan_0' 'total_day_minutes'
+ 'total_eve_minutes' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']"
+kc1.csv,2109,22,21,25914,0.337726,0.33708,0.370006,0.360428,4.0,18.666666666666664,10,7.0,3,3,3,7.333333333333333,14,14,7,5.214285714285714,"MLPClassifier(activation='logistic', alpha=0.20758746321123386,
+              hidden_layer_sizes=3, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.5656317680016457,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,10,7,"['loc' 'iv(g)' 'n' 'i' 'lOCode' 'locCodeAndComment' 'uniq_Op' 'total_Op'
+ 'total_Opnd' 'branchCount']",['loc' 'n' 'd' 'lOCode' 'lOBlank' 'locCodeAndComment' 'branchCount'],"['loc' 'iv(g)' 'n' 'i' 'lOCode' 'locCodeAndComment' 'uniq_Op' 'total_Op'
+ 'total_Opnd' 'branchCount']",['loc' 'n' 'd' 'lOCode' 'lOBlank' 'locCodeAndComment' 'branchCount']
+ringnorm.csv,7400,21,19,23446,0.213483,0.212479,0.228539,0.220305,16.5,16.5,10,10.0,11,11,10,7.454545454545454,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V3' 'V6' 'V13' 'V14' 'V15' 'V17' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V11' 'V12' 'V13' 'V14' 'V17' 'V18' 'V19'],['V1' 'V3' 'V6' 'V13' 'V14' 'V15' 'V17' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V11' 'V12' 'V13' 'V14' 'V17' 'V18' 'V19']
+ringnorm.csv,7400,21,20,24680,0.143792,0.148085,0.145503,0.134691,27.299999999999997,27.75,19,17.0,15,14,19,14.214285714285714,15,15,17,12.733333333333333,"MLPClassifier(activation='logistic', alpha=1.1968404616622665,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.3180515652538012,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,19,17,"['V1' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14'
+ 'V15' 'V16' 'V17' 'V18' 'V19' 'V20']","['V1' 'V2' 'V3' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V20']","['V1' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14'
+ 'V15' 'V16' 'V17' 'V18' 'V19' 'V20']","['V1' 'V2' 'V3' 'V5' 'V7' 'V8' 'V9' 'V10' 'V11' 'V12' 'V13' 'V14' 'V15'
+ 'V16' 'V17' 'V18' 'V20']"
+churn.csv,5000,34,21,25914,0.204361,0.195453,0.192369,0.218187,2.909090909090909,4.254545454545455,18,15.0,2,2,10,13.5,3,3,9,11.333333333333334,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,18,15,"['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_calls' 'total_day_charge'
+ 'total_eve_minutes' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_minutes' 'total_day_calls' 'total_eve_minutes'
+ 'total_night_minutes' 'total_intl_minutes' 'total_intl_charge'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_8' 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_calls' 'total_day_charge'
+ 'total_eve_minutes' 'total_night_minutes' 'total_intl_minutes'
+ 'total_intl_charge' 'number_customer_service_calls_0'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_minutes' 'total_day_calls' 'total_eve_minutes'
+ 'total_night_minutes' 'total_intl_minutes' 'total_intl_charge'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_8' 'number_customer_service_calls_9']"
+kc1.csv,2109,22,22,27148,0.347229,0.342023,0.376642,0.377853,2.380952380952381,2.1333333333333333,4,2.0,2,2,2,3.0,2,2,0,1.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,4,2,['loc' 'v' 'i' 'b'],['b' 'lOCode'],['loc' 'v' 'i' 'b'],['b' 'lOCode']
+Contaminant.csv,2400,31,21,25914,0.210117,0.149365,0.302511,0.198943,3.0933333333333333,24.92,20,24.0,2,2,8,15.0,14,14,21,18.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.45903650083404035,
+              hidden_layer_sizes=14, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,20,24,"['s12' 's14' 's15' 's21' 's23' 's31' 's32' 's34' 's35' 's36' 's42' 's46'
+ 's51' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's15' 's16' 's21' 's23' 's25' 's26' 's31' 's36' 's42' 's43'
+ 's45' 's46' 's51' 's52' 's53' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's14' 's15' 's21' 's23' 's31' 's32' 's34' 's35' 's36' 's42' 's46'
+ 's51' 's54' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's15' 's16' 's21' 's23' 's25' 's26' 's31' 's36' 's42' 's43'
+ 's45' 's46' 's51' 's52' 's53' 's54' 's56' 's61' 's62' 's63' 's64' 's65']"
+Contaminant.csv,2400,31,22,27148,0.243728,0.291128,0.238791,0.30603,2.9466666666666668,1.2666666666666666,19,20.0,2,2,6,14.0,1,1,0,15.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,19,20,"['s12' 's14' 's15' 's21' 's23' 's25' 's31' 's32' 's35' 's36' 's42' 's45'
+ 's46' 's51' 's53' 's56' 's61' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's32' 's35' 's36' 's42' 's43' 's45'
+ 's46' 's51' 's52' 's53' 's56' 's61' 's62' 's63']","['s12' 's14' 's15' 's21' 's23' 's25' 's31' 's32' 's35' 's36' 's42' 's45'
+ 's46' 's51' 's53' 's56' 's61' 's63' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's32' 's35' 's36' 's42' 's43' 's45'
+ 's46' 's51' 's52' 's53' 's56' 's61' 's62' 's63']"
+churn.csv,5000,34,22,27148,0.148274,0.149105,0.167087,0.162653,5.9393939393939394,15.000000000000002,16,12.0,4,4,13,12.0,11,11,12,9.0,"MLPClassifier(activation='logistic', alpha=0.35786246140106875,
+              hidden_layer_sizes=4, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.6954433595443172,
+              hidden_layer_sizes=11, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,16,12,"['account_length' 'phone_number' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'voice_mail_plan_1'
+ 'total_day_charge' 'total_eve_charge' 'total_night_minutes'
+ 'total_night_charge' 'total_intl_minutes' 'total_intl_calls'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_3']","['international_plan_1' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_minutes' 'total_night_minutes' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7']","['account_length' 'phone_number' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_0' 'voice_mail_plan_1'
+ 'total_day_charge' 'total_eve_charge' 'total_night_minutes'
+ 'total_night_charge' 'total_intl_minutes' 'total_intl_calls'
+ 'number_customer_service_calls_0' 'number_customer_service_calls_1'
+ 'number_customer_service_calls_2' 'number_customer_service_calls_3']","['international_plan_1' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_minutes' 'total_night_minutes' 'total_night_charge'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7']"
+kc1.csv,2109,22,23,28382,0.345424,0.346846,0.352422,0.353915,1.1333333333333333,2.4190476190476193,7,5.0,1,1,0,5.0,2,2,2,3.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=1,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,7,5,['loc' 'ev(g)' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op'],['v(g)' 'v' 'd' 'lOCode' 'total_Opnd'],['loc' 'ev(g)' 'd' 'i' 'b' 'locCodeAndComment' 'total_Op'],['v(g)' 'v' 'd' 'lOCode' 'total_Opnd']
+Contaminant.csv,2400,31,23,28382,0.258395,0.233758,0.257437,0.240933,2.92,2.9066666666666667,15,19.0,2,2,9,11.0,2,2,7,14.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,15,19,"['s12' 's13' 's14' 's15' 's23' 's31' 's32' 's35' 's42' 's46' 's51' 's56'
+ 's61' 's62' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's24' 's31' 's32' 's35' 's42' 's45'
+ 's51' 's56' 's61' 's62' 's63' 's64' 's65']","['s12' 's13' 's14' 's15' 's23' 's31' 's32' 's35' 's42' 's46' 's51' 's56'
+ 's61' 's62' 's65']","['s12' 's13' 's14' 's15' 's21' 's23' 's24' 's31' 's32' 's35' 's42' 's45'
+ 's51' 's56' 's61' 's62' 's63' 's64' 's65']"
+churn.csv,5000,34,23,28382,0.204382,0.202389,0.2157,0.21292,4.509090909090909,2.533333333333333,19,10.0,3,3,14,14.333333333333334,2,2,6,7.5,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=3,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=2,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,19,10,"['account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_minutes' 'total_day_calls' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_night_charge' 'total_intl_minutes'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_0' 'total_day_minutes' 'total_eve_charge'
+ 'total_night_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']","['account_length' 'area_code_415' 'international_plan_0'
+ 'international_plan_1' 'voice_mail_plan_1' 'number_vmail_messages'
+ 'total_day_minutes' 'total_day_calls' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_night_charge' 'total_intl_minutes'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_0' 'total_day_minutes' 'total_eve_charge'
+ 'total_night_charge' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6']"
+ringnorm.csv,7400,21,21,25914,0.217503,0.214308,0.214715,0.217566,16.5,16.5,10,10.0,11,11,10,7.454545454545454,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V2' 'V4' 'V8' 'V12' 'V13' 'V15' 'V16' 'V19' 'V20'],['V1' 'V6' 'V8' 'V9' 'V11' 'V13' 'V15' 'V17' 'V18' 'V20'],['V1' 'V2' 'V4' 'V8' 'V12' 'V13' 'V15' 'V16' 'V19' 'V20'],['V1' 'V6' 'V8' 'V9' 'V11' 'V13' 'V15' 'V17' 'V18' 'V20']
+kc1.csv,2109,22,24,29616,0.352988,0.352266,0.325969,0.341992,2.647619047619048,5.9523809523809526,11,4.0,2,2,2,8.0,5,5,3,3.0,"MLPClassifier(activation='logistic', alpha=0.4791989236067663,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.3255925622137561,
+              hidden_layer_sizes=5, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,11,4,"['loc' 'v(g)' 'iv(g)' 'n' 'l' 'd' 't' 'lOCode' 'locCodeAndComment'
+ 'uniq_Opnd' 'branchCount']",['d' 'i' 'lOCode' 'lOBlank'],"['loc' 'v(g)' 'iv(g)' 'n' 'l' 'd' 't' 'lOCode' 'locCodeAndComment'
+ 'uniq_Opnd' 'branchCount']",['d' 'i' 'lOCode' 'lOBlank']
+ringnorm.csv,7400,21,22,27148,0.211255,0.213714,0.245245,0.217759,16.5,16.5,10,10.0,12,11,10,7.454545454545454,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=12,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V2' 'V3' 'V4' 'V5' 'V6' 'V7' 'V13' 'V15' 'V18'],['V1' 'V2' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V13' 'V18'],['V1' 'V2' 'V3' 'V4' 'V5' 'V6' 'V7' 'V13' 'V15' 'V18'],['V1' 'V2' 'V3' 'V4' 'V5' 'V6' 'V7' 'V8' 'V13' 'V18']
+Contaminant.csv,2400,31,24,29616,0.154171,0.226858,0.165441,0.289662,22.706666666666667,2.92,23,18.0,13,13,22,17.23076923076923,2,2,5,13.5,"MLPClassifier(activation='logistic', alpha=0.36552202281539214,
+              hidden_layer_sizes=13, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.0000000000000004e-05,
+              hidden_layer_sizes=2, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,23,18,"['s12' 's13' 's15' 's21' 's23' 's25' 's31' 's34' 's35' 's36' 's41' 's42'
+ 's43' 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's63' 's64' 's65']","['s13' 's14' 's15' 's21' 's23' 's24' 's31' 's32' 's35' 's36' 's42' 's46'
+ 's51' 's56' 's61' 's63' 's64' 's65']","['s12' 's13' 's15' 's21' 's23' 's25' 's31' 's34' 's35' 's36' 's41' 's42'
+ 's43' 's45' 's46' 's51' 's53' 's54' 's56' 's61' 's63' 's64' 's65']","['s13' 's14' 's15' 's21' 's23' 's24' 's31' 's32' 's35' 's36' 's42' 's46'
+ 's51' 's56' 's61' 's63' 's64' 's65']"
+churn.csv,5000,34,24,29616,0.162455,0.159166,0.133443,0.143495,10.47878787878788,11.248484848484848,17,14.0,7,7,16,12.714285714285714,8,8,13,10.5,"MLPClassifier(activation='logistic', alpha=0.4574278987937095,
+              hidden_layer_sizes=7, max_iter=500, random_state=12345,
+              solver='lbfgs')","MLPClassifier(activation='logistic', alpha=0.3550792522634344,
+              hidden_layer_sizes=8, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,17,14,"['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_0' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_charge' 'total_eve_charge'
+ 'total_night_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']","['state' 'account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_0' 'voice_mail_plan_1' 'total_day_charge'
+ 'total_eve_minutes' 'total_eve_charge' 'total_night_minutes'
+ 'total_intl_minutes' 'total_intl_calls' 'number_customer_service_calls_4'
+ 'number_customer_service_calls_5' 'number_customer_service_calls_6'
+ 'number_customer_service_calls_7' 'number_customer_service_calls_9']","['account_length' 'international_plan_0' 'international_plan_1'
+ 'voice_mail_plan_1' 'total_day_charge' 'total_eve_charge'
+ 'total_night_minutes' 'total_intl_calls' 'total_intl_charge'
+ 'number_customer_service_calls_4' 'number_customer_service_calls_5'
+ 'number_customer_service_calls_6' 'number_customer_service_calls_7'
+ 'number_customer_service_calls_9']"
+ringnorm.csv,7400,21,23,28382,0.212114,0.217084,0.211041,0.22553,16.5,16.5,10,10.0,11,11,10,7.454545454545454,11,11,10,7.454545454545454,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')",,,,,,,10,10,['V1' 'V4' 'V7' 'V10' 'V13' 'V15' 'V17' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V4' 'V6' 'V10' 'V13' 'V18' 'V19' 'V20'],['V1' 'V4' 'V7' 'V10' 'V13' 'V15' 'V17' 'V18' 'V19' 'V20'],['V1' 'V2' 'V3' 'V4' 'V6' 'V10' 'V13' 'V18' 'V19' 'V20']
+ringnorm.csv,7400,21,24,29616,0.213824,0.148408,0.211525,0.163962,16.5,27.0,10,16.0,11,11,10,7.454545454545454,15,15,16,12.0,"MLPClassifier(activation='logistic', alpha=1e-05, hidden_layer_sizes=11,
+              max_iter=500, random_state=12345, solver='lbfgs')","MLPClassifier(activation='logistic', alpha=1.3251443617934262,
+              hidden_layer_sizes=15, max_iter=500, random_state=12345,
+              solver='lbfgs')",,,,,,,10,16,['V1' 'V2' 'V3' 'V6' 'V7' 'V13' 'V15' 'V18' 'V19' 'V20'],"['V1' 'V2' 'V3' 'V4' 'V5' 'V7' 'V8' 'V9' 'V11' 'V12' 'V13' 'V15' 'V16'
+ 'V17' 'V18' 'V20']",['V1' 'V2' 'V3' 'V6' 'V7' 'V13' 'V15' 'V18' 'V19' 'V20'],"['V1' 'V2' 'V3' 'V4' 'V5' 'V7' 'V8' 'V9' 'V11' 'V12' 'V13' 'V15' 'V16'
+ 'V17' 'V18' 'V20']"

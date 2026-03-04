@@ -1,0 +1,4 @@
+dataset,run,seed,nrows,ncols,i_5CV_logloss,p_5CV_logloss,i_TST_logloss,p_TST_logloss,i_geo_complexity,p_geo_complexity,i_nfs_complexity,p_nfs_complexity,i_H_total,i_H_active,i_C_inconsistentes,i_k_promedio_activas,p_H_total,p_H_active,p_C_inconsistentes,p_k_promedio_activas,i_d,p_d,i_l,p_l,i_f,p_f,i_tree_nfs,p_tree_nfs
+Bioresponse.csv,12.0,14808.0,3751.0,1777.0,0.4853,0.486,0.5062,0.5139,2.6581,9.5421,498.56,396.44,2.32,2.32,29.76,368.99,8.6,8.6,26.88,290.62,,,,,,,498.12,395.88
+UCI.csv,12.0,14808.0,3333.0,3405.0,0.2186,0.2494,0.2153,0.2472,7.3411,15.2566,836.6,688.28,6.68,6.68,65.32,396.9,7.96,6.68,49.44,340.65,,,,,,,586.8,480.92
+shill.csv,12.0,14808.0,6321.0,1066.0,0.0177,0.0168,0.0252,0.0239,5.867,11.2357,248.32,161.64,4.88,4.88,169.28,169.78,9.92,9.88,123.88,110.52,,,,,,,237.56,157.52

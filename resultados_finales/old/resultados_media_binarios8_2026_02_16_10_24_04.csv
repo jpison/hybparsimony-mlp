@@ -1,0 +1,2 @@
+dataset,run,seed,nrows,ncols,i_5CV_logloss,p_5CV_logloss,i_TST_logloss,p_TST_logloss,i_geo_complexity,p_geo_complexity,i_nfs_complexity,p_nfs_complexity,i_H_total,i_H_active,i_C_inconsistentes,i_k_promedio_activas,p_H_total,p_H_active,p_C_inconsistentes,p_k_promedio_activas,i_d,p_d,i_l,p_l,i_f,p_f,i_tree_nfs,p_tree_nfs
+mushroom.csv,0.0,0.0,8124.0,126.0,0.0,0.0,0.0,0.0,1.1568,17.1568,49.0,18.0,1.0,1.0,0.0,37.0,15.0,15.0,17.0,13.47,,,,,,,49.0,18.0
