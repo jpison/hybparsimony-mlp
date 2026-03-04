@@ -1,0 +1,1514 @@
+{
+  "summary": {
+    "n_samples": 3498,
+    "d_features": 22,
+    "H_total": 14,
+    "H_active": 14,
+    "H_dead": 0,
+    "kept_connections": 231,
+    "connection_threshold": 0.2257311447437241,
+    "n_inconsistent_features": 19,
+    "complexity_metric_name": "i_mlp",
+    "complexity_formula": "i_mlp = H_activas * (1 + 0.6*(C_inconsistentes/d) + 0.4*(k_promedio_activas/d))",
+    "complexity_value": 25.454545454545453,
+    "p_mlp_value": 22000000116.782818,
+    "complexity_components": {
+      "H_activas": 14,
+      "C_inconsistentes": 19,
+      "d": 22,
+      "k_promedio_activas": 16.5,
+      "peso_inconsistencias": 0.6,
+      "peso_sparsidad": 0.4
+    }
+  },
+  "neuron_rules": [
+    {
+      "rule_id": "R1",
+      "neuron_index": 0,
+      "output_weight": -1.9028967799645544,
+      "hidden_bias": 0.21001774510089583,
+      "features": [
+        "col_0",
+        "col_1",
+        "col_3",
+        "col_7",
+        "col_10",
+        "col_15",
+        "col_42",
+        "col_51",
+        "col_73",
+        "col_80",
+        "col_110",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_0",
+        "col_3",
+        "col_7",
+        "col_42",
+        "col_110",
+        "col_114",
+        "col_126"
+      ],
+      "negative_features": [
+        "col_1",
+        "col_10",
+        "col_15",
+        "col_51",
+        "col_73",
+        "col_80",
+        "col_132"
+      ],
+      "condition": "(+0.3947*col_0) + (-0.1628*col_1) + (+0.3728*col_3) + (+0.5502*col_7) + (-0.4534*col_10) + (-0.3140*col_15) + (+0.1897*col_42) + (-0.1190*col_51) + (-0.2983*col_73) + (-0.3798*col_80) + (+0.6052*col_110) + (+0.2953*col_114) + (+0.8878*col_126) + (-0.4387*col_132) +0.2100 > 0"
+    },
+    {
+      "rule_id": "R2",
+      "neuron_index": 1,
+      "output_weight": 1.5127944381416625,
+      "hidden_bias": -1.0716719002109953,
+      "features": [
+        "col_1",
+        "col_2",
+        "col_7",
+        "col_10",
+        "col_15",
+        "col_73",
+        "col_80",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_110",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_1",
+        "col_2",
+        "col_7",
+        "col_10",
+        "col_110",
+        "col_132"
+      ],
+      "negative_features": [
+        "col_15",
+        "col_73",
+        "col_80",
+        "col_92",
+        "col_98",
+        "col_102"
+      ],
+      "condition": "(+0.2131*col_1) + (+0.2445*col_2) + (+0.2471*col_7) + (+0.4162*col_10) + (-0.3182*col_15) + (-0.1704*col_73) + (-0.1709*col_80) + (-0.7908*col_92) + (-0.5452*col_98) + (-0.3703*col_102) + (+0.2167*col_110) + (+0.5413*col_132) -1.0717 > 0"
+    },
+    {
+      "rule_id": "R3",
+      "neuron_index": 2,
+      "output_weight": 1.9226653510947889,
+      "hidden_bias": -1.0857498867437545,
+      "features": [
+        "col_0",
+        "col_1",
+        "col_2",
+        "col_7",
+        "col_15",
+        "col_28",
+        "col_42",
+        "col_51",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_1",
+        "col_2",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_132"
+      ],
+      "negative_features": [
+        "col_0",
+        "col_7",
+        "col_15",
+        "col_28",
+        "col_42",
+        "col_51",
+        "col_92",
+        "col_114",
+        "col_126"
+      ],
+      "condition": "(-0.3916*col_0) + (+0.2240*col_1) + (+0.2065*col_2) + (-0.5820*col_7) + (-0.7026*col_15) + (-0.4616*col_28) + (-0.1329*col_42) + (-0.2213*col_51) + (-0.5799*col_92) + (+0.3239*col_98) + (+0.3127*col_102) + (+0.5111*col_103) + (+0.5654*col_110) + (-0.3385*col_114) + (-0.5678*col_126) + (+0.5511*col_132) -1.0857 > 0"
+    },
+    {
+      "rule_id": "R4",
+      "neuron_index": 3,
+      "output_weight": -1.805461431805038,
+      "hidden_bias": 0.46831367960455533,
+      "features": [
+        "col_0",
+        "col_1",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_10",
+        "col_15",
+        "col_42",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_92",
+        "col_98",
+        "col_103",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_0",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_42",
+        "col_71",
+        "col_92",
+        "col_114",
+        "col_126"
+      ],
+      "negative_features": [
+        "col_1",
+        "col_10",
+        "col_15",
+        "col_46",
+        "col_51",
+        "col_73",
+        "col_98",
+        "col_103",
+        "col_132"
+      ],
+      "condition": "(+0.2866*col_0) + (-0.1490*col_1) + (+0.1668*col_2) + (+0.5376*col_3) + (+0.6600*col_7) + (-0.6867*col_10) + (-0.4334*col_15) + (+0.1771*col_42) + (-0.1779*col_46) + (-0.2207*col_51) + (+0.1996*col_71) + (-0.3332*col_73) + (+0.2319*col_92) + (-0.1845*col_98) + (-0.2081*col_103) + (+0.3157*col_114) + (+0.4050*col_126) + (-0.4646*col_132) +0.4683 > 0"
+    },
+    {
+      "rule_id": "R5",
+      "neuron_index": 4,
+      "output_weight": -1.6723182869307016,
+      "hidden_bias": 0.03221418019868387,
+      "features": [
+        "col_0",
+        "col_1",
+        "col_2",
+        "col_10",
+        "col_15",
+        "col_42",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_80",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_110",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_0",
+        "col_15",
+        "col_42",
+        "col_71",
+        "col_73",
+        "col_92",
+        "col_102",
+        "col_126"
+      ],
+      "negative_features": [
+        "col_1",
+        "col_2",
+        "col_10",
+        "col_51",
+        "col_80",
+        "col_98",
+        "col_110",
+        "col_132"
+      ],
+      "condition": "(+0.3177*col_0) + (-0.2900*col_1) + (-0.1992*col_2) + (-0.6095*col_10) + (+0.2236*col_15) + (+0.3194*col_42) + (-0.6999*col_51) + (+0.5401*col_71) + (+0.6447*col_73) + (-0.2711*col_80) + (+0.1520*col_92) + (-0.2189*col_98) + (+0.2265*col_102) + (-0.1391*col_110) + (+0.3746*col_126) + (-0.5593*col_132) +0.0322 > 0"
+    },
+    {
+      "rule_id": "R6",
+      "neuron_index": 5,
+      "output_weight": 2.148808519388115,
+      "hidden_bias": -0.05820507013542171,
+      "features": [
+        "col_0",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_10",
+        "col_15",
+        "col_28",
+        "col_42",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_80",
+        "col_92",
+        "col_102",
+        "col_110",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_10",
+        "col_51",
+        "col_80",
+        "col_92",
+        "col_110",
+        "col_114",
+        "col_132"
+      ],
+      "negative_features": [
+        "col_0",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_15",
+        "col_28",
+        "col_42",
+        "col_46",
+        "col_71",
+        "col_73",
+        "col_102",
+        "col_126"
+      ],
+      "condition": "(-0.4562*col_0) + (-0.3145*col_2) + (-0.7110*col_3) + (-0.7538*col_7) + (+0.4978*col_10) + (-0.2281*col_15) + (-0.3571*col_28) + (-0.2946*col_42) + (-0.3600*col_46) + (+0.4006*col_51) + (-0.5420*col_71) + (-0.3706*col_73) + (+0.6537*col_80) + (+0.1060*col_92) + (-0.2347*col_102) + (+0.1514*col_110) + (+0.4205*col_114) + (-0.5100*col_126) + (+0.6203*col_132) -0.0582 > 0"
+    },
+    {
+      "rule_id": "R7",
+      "neuron_index": 6,
+      "output_weight": -2.1114799310663317,
+      "hidden_bias": -0.4161445321216575,
+      "features": [
+        "col_0",
+        "col_1",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_10",
+        "col_28",
+        "col_42",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_80",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_0",
+        "col_1",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_42",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_102",
+        "col_103",
+        "col_126"
+      ],
+      "negative_features": [
+        "col_10",
+        "col_28",
+        "col_80",
+        "col_98",
+        "col_114",
+        "col_132"
+      ],
+      "condition": "(+0.3153*col_0) + (+0.2316*col_1) + (+0.4666*col_2) + (+0.6480*col_3) + (+0.4625*col_7) + (-0.4591*col_10) + (-0.2520*col_28) + (+0.6754*col_42) + (+0.8088*col_46) + (+0.2528*col_51) + (+0.4442*col_71) + (+0.2475*col_73) + (-0.1610*col_80) + (-0.1522*col_98) + (+0.3737*col_102) + (+0.2145*col_103) + (-0.1197*col_114) + (+0.4593*col_126) + (-0.5402*col_132) -0.4161 > 0"
+    },
+    {
+      "rule_id": "R8",
+      "neuron_index": 7,
+      "output_weight": -1.6285863726235994,
+      "hidden_bias": 0.9723904069625446,
+      "features": [
+        "col_0",
+        "col_1",
+        "col_2",
+        "col_3",
+        "col_15",
+        "col_28",
+        "col_42",
+        "col_80",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_0",
+        "col_15",
+        "col_28",
+        "col_42",
+        "col_114",
+        "col_126"
+      ],
+      "negative_features": [
+        "col_1",
+        "col_2",
+        "col_3",
+        "col_80",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_132"
+      ],
+      "condition": "(+0.5041*col_0) + (-0.1810*col_1) + (-0.2972*col_2) + (-0.3337*col_3) + (+0.7858*col_15) + (+0.6147*col_28) + (+0.1613*col_42) + (-0.5810*col_80) + (-0.1808*col_98) + (-0.1797*col_102) + (-0.4111*col_103) + (-0.4240*col_110) + (+0.4018*col_114) + (+0.2185*col_126) + (-0.1984*col_132) +0.9724 > 0"
+    },
+    {
+      "rule_id": "R9",
+      "neuron_index": 8,
+      "output_weight": 1.9405533891443438,
+      "hidden_bias": 0.6746746766872735,
+      "features": [
+        "col_0",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_10",
+        "col_46",
+        "col_71",
+        "col_73",
+        "col_80",
+        "col_110",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_10",
+        "col_73",
+        "col_80",
+        "col_132"
+      ],
+      "negative_features": [
+        "col_0",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_46",
+        "col_71",
+        "col_110",
+        "col_114",
+        "col_126"
+      ],
+      "condition": "(-0.1555*col_0) + (-0.1687*col_2) + (-0.6914*col_3) + (-0.3832*col_7) + (+0.5836*col_10) + (-0.1247*col_46) + (-0.2980*col_71) + (+0.1595*col_73) + (+0.2458*col_80) + (-0.3434*col_110) + (-0.1776*col_114) + (-0.8040*col_126) + (+0.7283*col_132) +0.6747 > 0"
+    },
+    {
+      "rule_id": "R10",
+      "neuron_index": 9,
+      "output_weight": 2.26072387939481,
+      "hidden_bias": -1.7459888266418615,
+      "features": [
+        "col_0",
+        "col_3",
+        "col_10",
+        "col_15",
+        "col_42",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_0",
+        "col_10",
+        "col_71",
+        "col_73",
+        "col_110",
+        "col_114",
+        "col_132"
+      ],
+      "negative_features": [
+        "col_3",
+        "col_15",
+        "col_42",
+        "col_46",
+        "col_51",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_126"
+      ],
+      "condition": "(+0.1843*col_0) + (-0.2730*col_3) + (+0.5069*col_10) + (-0.4271*col_15) + (-0.4357*col_42) + (-0.3968*col_46) + (-0.1173*col_51) + (+0.1446*col_71) + (+0.2379*col_73) + (-0.9018*col_92) + (-0.9492*col_98) + (-0.4329*col_102) + (-0.1446*col_103) + (+0.1908*col_110) + (+0.5063*col_114) + (-0.6754*col_126) + (+0.6315*col_132) -1.7460 > 0"
+    },
+    {
+      "rule_id": "R11",
+      "neuron_index": 10,
+      "output_weight": 1.5445245361112943,
+      "hidden_bias": 0.7697073148462785,
+      "features": [
+        "col_3",
+        "col_7",
+        "col_10",
+        "col_15",
+        "col_46",
+        "col_51",
+        "col_80",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_114",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_10",
+        "col_46",
+        "col_51",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_132"
+      ],
+      "negative_features": [
+        "col_3",
+        "col_7",
+        "col_15",
+        "col_80",
+        "col_92",
+        "col_114",
+        "col_126"
+      ],
+      "condition": "(-0.4420*col_3) + (-0.2035*col_7) + (+0.4907*col_10) + (-0.2464*col_15) + (+0.2217*col_46) + (+0.3539*col_51) + (-0.3839*col_80) + (-0.5769*col_92) + (+0.3403*col_98) + (+0.3603*col_102) + (+0.3003*col_103) + (+0.1610*col_110) + (-0.2427*col_114) + (-0.2620*col_126) + (+0.6394*col_132) +0.7697 > 0"
+    },
+    {
+      "rule_id": "R12",
+      "neuron_index": 11,
+      "output_weight": -2.4560829349339963,
+      "hidden_bias": -1.2431703498784665,
+      "features": [
+        "col_0",
+        "col_1",
+        "col_2",
+        "col_3",
+        "col_10",
+        "col_15",
+        "col_28",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_80",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_3",
+        "col_15",
+        "col_28",
+        "col_92",
+        "col_110"
+      ],
+      "negative_features": [
+        "col_0",
+        "col_1",
+        "col_2",
+        "col_10",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_80",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_126",
+        "col_132"
+      ],
+      "condition": "(-0.4590*col_0) + (-0.3191*col_1) + (-0.1436*col_2) + (+0.2448*col_3) + (-0.6089*col_10) + (+0.7423*col_15) + (+0.7082*col_28) + (-0.4233*col_46) + (-0.3457*col_51) + (-0.2600*col_71) + (-0.4499*col_73) + (-0.7501*col_80) + (+0.3527*col_92) + (-0.2975*col_98) + (-0.5440*col_102) + (-0.5356*col_103) + (+0.3731*col_110) + (-0.2981*col_126) + (-0.7078*col_132) -1.2432 > 0"
+    },
+    {
+      "rule_id": "R13",
+      "neuron_index": 12,
+      "output_weight": -2.0815420751624645,
+      "hidden_bias": 1.445983047286834,
+      "features": [
+        "col_0",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_10",
+        "col_15",
+        "col_28",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_80",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_114",
+        "col_126"
+      ],
+      "positive_features": [
+        "col_0",
+        "col_2",
+        "col_3",
+        "col_7",
+        "col_71",
+        "col_80",
+        "col_92",
+        "col_110",
+        "col_114",
+        "col_126"
+      ],
+      "negative_features": [
+        "col_10",
+        "col_15",
+        "col_28",
+        "col_46",
+        "col_51",
+        "col_73",
+        "col_98",
+        "col_102",
+        "col_103"
+      ],
+      "condition": "(+0.2780*col_0) + (+0.3073*col_2) + (+0.6339*col_3) + (+0.7166*col_7) + (-0.6098*col_10) + (-0.5826*col_15) + (-0.3860*col_28) + (-0.3451*col_46) + (-0.2435*col_51) + (+0.2625*col_71) + (-0.2963*col_73) + (+0.2537*col_80) + (+0.2625*col_92) + (-0.4818*col_98) + (-0.2209*col_102) + (-0.2353*col_103) + (+0.2128*col_110) + (+0.1855*col_114) + (+0.3540*col_126) +1.4460 > 0"
+    },
+    {
+      "rule_id": "R14",
+      "neuron_index": 13,
+      "output_weight": 2.7900921072755254,
+      "hidden_bias": 1.5523303649129123,
+      "features": [
+        "col_0",
+        "col_1",
+        "col_3",
+        "col_7",
+        "col_10",
+        "col_15",
+        "col_28",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_80",
+        "col_92",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_126",
+        "col_132"
+      ],
+      "positive_features": [
+        "col_0",
+        "col_1",
+        "col_7",
+        "col_10",
+        "col_46",
+        "col_51",
+        "col_71",
+        "col_73",
+        "col_98",
+        "col_102",
+        "col_103",
+        "col_110",
+        "col_126",
+        "col_132"
+      ],
+      "negative_features": [
+        "col_3",
+        "col_15",
+        "col_28",
+        "col_80",
+        "col_92"
+      ],
+      "condition": "(+0.6034*col_0) + (+0.3348*col_1) + (-0.5678*col_3) + (+0.2811*col_7) + (+0.9375*col_10) + (-0.7924*col_15) + (-0.4029*col_28) + (+0.6749*col_46) + (+0.7415*col_51) + (+0.2157*col_71) + (+0.1760*col_73) + (-0.5123*col_80) + (-0.5576*col_92) + (+0.7259*col_98) + (+0.6392*col_102) + (+0.6340*col_103) + (+0.4457*col_110) + (+0.0869*col_126) + (+0.6875*col_132) +1.5523 > 0"
+    }
+  ],
+  "output_rule": {
+    "condition": "+0.8054 + (-1.9029*I(R1_ON)) + (+1.5128*I(R2_ON)) + (+1.9227*I(R3_ON)) + (-1.8055*I(R4_ON)) + (-1.6723*I(R5_ON)) + (+2.1488*I(R6_ON)) + (-2.1115*I(R7_ON)) + (-1.6286*I(R8_ON)) + (+1.9406*I(R9_ON)) + (+2.2607*I(R10_ON)) + (+1.5445*I(R11_ON)) + (-2.4561*I(R12_ON)) + (-2.0815*I(R13_ON)) + (+2.7901*I(R14_ON)) > 0",
+    "meaning": "Clase positiva si la condicion se cumple; negativa en caso contrario."
+  },
+  "feature_report": [
+    {
+      "feature_index": 0,
+      "feature_name": "col_0",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        9,
+        11,
+        13
+      ],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12
+      ]
+    },
+    {
+      "feature_index": 1,
+      "feature_name": "col_1",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        11,
+        13
+      ],
+      "neg_neurons": [
+        6
+      ]
+    },
+    {
+      "feature_index": 2,
+      "feature_name": "col_2",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        1,
+        2,
+        4,
+        7,
+        11
+      ],
+      "neg_neurons": [
+        3,
+        5,
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "feature_index": 3,
+      "feature_name": "col_3",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        7
+      ],
+      "neg_neurons": [
+        0,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "feature_index": 4,
+      "feature_name": "col_7",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        1,
+        13
+      ],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        10,
+        12
+      ]
+    },
+    {
+      "feature_index": 5,
+      "feature_name": "col_10",
+      "used": true,
+      "inconsistent": false,
+      "pos_neurons": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": []
+    },
+    {
+      "feature_index": 6,
+      "feature_name": "col_15",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        3,
+        12
+      ],
+      "neg_neurons": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "feature_index": 7,
+      "feature_name": "col_28",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        6,
+        12
+      ],
+      "neg_neurons": [
+        2,
+        5,
+        7,
+        11,
+        13
+      ]
+    },
+    {
+      "feature_index": 8,
+      "feature_name": "col_42",
+      "used": true,
+      "inconsistent": false,
+      "pos_neurons": [],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "feature_index": 9,
+      "feature_name": "col_46",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        3,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "feature_index": 10,
+      "feature_name": "col_51",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        2,
+        6,
+        9
+      ]
+    },
+    {
+      "feature_index": 11,
+      "feature_name": "col_71",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        9,
+        11,
+        13
+      ],
+      "neg_neurons": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "feature_index": 12,
+      "feature_name": "col_73",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        3,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        1,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "feature_index": 13,
+      "feature_name": "col_80",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "neg_neurons": [
+        1,
+        10,
+        12,
+        13
+      ]
+    },
+    {
+      "feature_index": 14,
+      "feature_name": "col_92",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        5
+      ],
+      "neg_neurons": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "feature_index": 15,
+      "feature_name": "col_98",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        1,
+        9
+      ]
+    },
+    {
+      "feature_index": 16,
+      "feature_name": "col_102",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        2,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        1,
+        4,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "feature_index": 17,
+      "feature_name": "col_103",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        2,
+        3,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        6,
+        9
+      ]
+    },
+    {
+      "feature_index": 18,
+      "feature_name": "col_110",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        13
+      ],
+      "neg_neurons": [
+        0,
+        8,
+        11,
+        12
+      ]
+    },
+    {
+      "feature_index": 19,
+      "feature_name": "col_114",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        5,
+        6,
+        9
+      ],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        7,
+        8,
+        10,
+        12
+      ]
+    },
+    {
+      "feature_index": 20,
+      "feature_name": "col_126",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        11,
+        13
+      ],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ]
+    },
+    {
+      "feature_index": 21,
+      "feature_name": "col_132",
+      "used": true,
+      "inconsistent": false,
+      "pos_neurons": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13
+      ],
+      "neg_neurons": []
+    }
+  ],
+  "inconsistent_features": [
+    {
+      "feature_index": 0,
+      "feature_name": "col_0",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        9,
+        11,
+        13
+      ],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12
+      ]
+    },
+    {
+      "feature_index": 1,
+      "feature_name": "col_1",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        11,
+        13
+      ],
+      "neg_neurons": [
+        6
+      ]
+    },
+    {
+      "feature_index": 2,
+      "feature_name": "col_2",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        1,
+        2,
+        4,
+        7,
+        11
+      ],
+      "neg_neurons": [
+        3,
+        5,
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "feature_index": 3,
+      "feature_name": "col_3",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        7
+      ],
+      "neg_neurons": [
+        0,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "feature_index": 4,
+      "feature_name": "col_7",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        1,
+        13
+      ],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        10,
+        12
+      ]
+    },
+    {
+      "feature_index": 6,
+      "feature_name": "col_15",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        3,
+        12
+      ],
+      "neg_neurons": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "feature_index": 7,
+      "feature_name": "col_28",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        6,
+        12
+      ],
+      "neg_neurons": [
+        2,
+        5,
+        7,
+        11,
+        13
+      ]
+    },
+    {
+      "feature_index": 9,
+      "feature_name": "col_46",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        3,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "feature_index": 10,
+      "feature_name": "col_51",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        2,
+        6,
+        9
+      ]
+    },
+    {
+      "feature_index": 11,
+      "feature_name": "col_71",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        9,
+        11,
+        13
+      ],
+      "neg_neurons": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        12
+      ]
+    },
+    {
+      "feature_index": 12,
+      "feature_name": "col_73",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        3,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        1,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "feature_index": 13,
+      "feature_name": "col_80",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "neg_neurons": [
+        1,
+        10,
+        12,
+        13
+      ]
+    },
+    {
+      "feature_index": 14,
+      "feature_name": "col_92",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        5
+      ],
+      "neg_neurons": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "feature_index": 15,
+      "feature_name": "col_98",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        1,
+        9
+      ]
+    },
+    {
+      "feature_index": 16,
+      "feature_name": "col_102",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        2,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        1,
+        4,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "feature_index": 17,
+      "feature_name": "col_103",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        2,
+        3,
+        7,
+        10,
+        11,
+        12,
+        13
+      ],
+      "neg_neurons": [
+        6,
+        9
+      ]
+    },
+    {
+      "feature_index": 18,
+      "feature_name": "col_110",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        13
+      ],
+      "neg_neurons": [
+        0,
+        8,
+        11,
+        12
+      ]
+    },
+    {
+      "feature_index": 19,
+      "feature_name": "col_114",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        5,
+        6,
+        9
+      ],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        7,
+        8,
+        10,
+        12
+      ]
+    },
+    {
+      "feature_index": 20,
+      "feature_name": "col_126",
+      "used": true,
+      "inconsistent": true,
+      "pos_neurons": [
+        11,
+        13
+      ],
+      "neg_neurons": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ]
+    }
+  ]
+}

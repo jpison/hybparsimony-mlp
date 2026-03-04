@@ -1,0 +1,41 @@
+=== Resumen ===
+H_total=10 | H_active=10 | H_dead=0
+d=19 | conexiones_mantenidas=142 | threshold=0.380139
+features_inconsistentes=14
+i_mlp=17.410526
+p_mlp=19000000117.288158
+
+=== Complejidad ===
+i_mlp = H_activas * (1 + 0.6*(C_inconsistentes/d) + 0.4*(k_promedio_activas/d))
+Sustituyendo: H_activas=10, C_inconsistentes=14, d=19, k_promedio_activas=14.200000, peso_inconsistencias=0.600, peso_sparsidad=0.400
+
+=== Reglas por neurona oculta ===
+R1 (neurona 0, W_out=+1.6341): SI (-0.8239*col_15) + (-0.4739*col_25) + (+0.5655*col_75) + (+0.3745*col_98) + (+0.4602*col_103) + (+0.2754*col_112) + (-0.3871*col_126) + (+0.2338*col_129) + (+0.2376*col_130) + (+0.5134*col_132) + (+0.3311*col_136) + (+0.2712*col_138) -1.5510 > 0 ENTONCES R1_ON
+R2 (neurona 1, W_out=-2.8102): SI (+0.6269*col_0) + (+0.5896*col_4) + (+0.7423*col_7) + (-0.6483*col_10) + (-0.4289*col_15) + (-0.5720*col_25) + (+0.7683*col_47) + (+0.2568*col_75) + (-0.3671*col_98) + (+0.4451*col_114) + (-0.5604*col_129) + (-0.4818*col_130) + (-0.7146*col_132) + (-0.7081*col_136) + (-0.3882*col_138) +0.5524 > 0 ENTONCES R2_ON
+R3 (neurona 2, W_out=+3.2377): SI (-0.2816*col_0) + (+0.4201*col_1) + (+0.2645*col_4) + (-0.1511*col_7) + (+0.2165*col_10) + (-0.3407*col_15) + (+0.3847*col_25) + (+0.5720*col_47) + (-0.1897*col_75) + (+0.6269*col_98) + (+1.2889*col_103) + (+0.2129*col_112) + (-1.2999*col_126) + (-0.8867*col_129) + (-0.4804*col_130) + (+0.4064*col_132) + (+0.8248*col_136) + (+0.4250*col_138) +2.0608 > 0 ENTONCES R3_ON
+R4 (neurona 3, W_out=-1.9380): SI (+0.2230*col_0) + (+0.6170*col_4) + (+0.2825*col_7) + (-0.6918*col_10) + (-0.4035*col_15) + (-0.3171*col_25) + (-0.2745*col_75) + (-0.3187*col_103) + (+0.2096*col_114) + (+0.3563*col_126) + (-0.2916*col_129) + (-0.4768*col_132) + (-0.4187*col_136) + (-0.2132*col_138) +0.0344 > 0 ENTONCES R4_ON
+R5 (neurona 4, W_out=-2.5553): SI (+0.3328*col_4) + (-0.6865*col_10) + (+0.4367*col_15) + (-0.2255*col_25) + (-0.3332*col_75) + (+1.3373*col_98) + (-0.6327*col_112) + (-0.3543*col_114) + (+0.5390*col_126) + (+0.3410*col_129) + (-0.1687*col_130) + (-0.8953*col_132) + (-0.2153*col_136) +1.6175 > 0 ENTONCES R5_ON
+R6 (neurona 5, W_out=-2.2406): SI (-0.3511*col_0) + (-0.4225*col_1) + (-0.3122*col_7) + (-1.0894*col_10) + (+0.8489*col_15) + (+0.9315*col_25) + (-0.7530*col_47) + (-0.3124*col_75) + (-0.3456*col_98) + (-0.5164*col_103) + (+0.2100*col_112) + (-0.1769*col_129) + (-0.2746*col_130) + (-0.6505*col_132) + (+0.2903*col_138) -0.5218 > 0 ENTONCES R6_ON
+R7 (neurona 6, W_out=+2.2165): SI (-0.2375*col_0) + (+0.7689*col_10) + (-0.2711*col_15) + (+0.4950*col_25) + (-0.7370*col_98) + (+0.4422*col_103) + (+0.3487*col_112) + (-0.4787*col_126) + (+0.2487*col_130) + (+0.8761*col_132) + (+0.2142*col_136) -0.9186 > 0 ENTONCES R7_ON
+R8 (neurona 7, W_out=+2.7122): SI (-0.4957*col_0) + (-0.1842*col_1) + (-0.7679*col_4) + (-0.2472*col_7) + (+0.9015*col_10) + (+0.6384*col_15) + (+0.6403*col_25) + (+0.7184*col_47) + (+0.4534*col_98) + (+0.4512*col_103) + (-0.1832*col_126) + (+0.2927*col_129) + (+0.1717*col_132) + (+0.3351*col_136) -1.7792 > 0 ENTONCES R8_ON
+R9 (neurona 8, W_out=+2.1514): SI (+0.3977*col_0) + (+0.2631*col_1) + (-0.6575*col_4) + (+0.2097*col_7) + (+1.0721*col_10) + (-0.4809*col_25) + (+0.6104*col_47) + (+0.6320*col_75) + (+0.1949*col_98) + (+0.5550*col_103) + (-0.2308*col_112) + (+0.2873*col_114) + (+0.3203*col_129) + (+0.3811*col_130) + (+0.5355*col_132) +0.7577 > 0 ENTONCES R9_ON
+R10 (neurona 9, W_out=-1.8558): SI (-0.2875*col_1) + (+0.2662*col_7) + (-0.2404*col_10) + (+0.8123*col_15) + (+0.8850*col_25) + (-0.5464*col_75) + (-0.3969*col_103) + (-0.3213*col_112) + (+0.2504*col_114) + (+0.5396*col_126) + (-0.2252*col_129) + (-0.2330*col_130) + (-0.6907*col_132) + (-0.4016*col_136) + (-0.4081*col_138) +2.1940 > 0 ENTONCES R10_ON
+
+=== Regla de salida ===
+SI +1.0711 + (+1.6341*I(R1_ON)) + (-2.8102*I(R2_ON)) + (+3.2377*I(R3_ON)) + (-1.9380*I(R4_ON)) + (-2.5553*I(R5_ON)) + (-2.2406*I(R6_ON)) + (+2.2165*I(R7_ON)) + (+2.7122*I(R8_ON)) + (+2.1514*I(R9_ON)) + (-1.8558*I(R10_ON)) > 0 ENTONCES clase=1; SI NO clase=0
+
+=== Features inconsistentes ===
+col_0: + en neuronas [5, 8] | - en neuronas [1, 2, 3, 6, 7]
+col_1: + en neuronas [2, 5, 8, 9] | - en neuronas [7]
+col_4: + en neuronas [2] | - en neuronas [1, 3, 4, 7, 8]
+col_7: + en neuronas [5, 8] | - en neuronas [1, 2, 3, 7, 9]
+col_15: + en neuronas [1, 3, 7] | - en neuronas [0, 2, 4, 5, 6, 9]
+col_25: + en neuronas [1, 2, 3, 4, 6, 7] | - en neuronas [0, 5, 8, 9]
+col_47: + en neuronas [2, 5, 7, 8] | - en neuronas [1]
+col_75: + en neuronas [0, 3, 4, 5, 8, 9] | - en neuronas [1, 2]
+col_98: + en neuronas [0, 1, 2, 5, 7, 8] | - en neuronas [4, 6]
+col_112: + en neuronas [0, 2, 4, 6, 9] | - en neuronas [5, 8]
+col_114: + en neuronas [4, 8] | - en neuronas [1, 3, 9]
+col_129: + en neuronas [0, 1, 3, 5, 7, 8, 9] | - en neuronas [2, 4]
+col_130: + en neuronas [0, 1, 4, 5, 6, 8, 9] | - en neuronas [2]
+col_138: + en neuronas [0, 1, 2, 3, 9] | - en neuronas [5]
